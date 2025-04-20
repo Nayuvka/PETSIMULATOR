@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: f284fae5dbebe6841837e123d5c2a645
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - PoopPrefab: {fileID: 8805041396477625832, guid: ca4560b8432f13a4cbce82e0d41f8128, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

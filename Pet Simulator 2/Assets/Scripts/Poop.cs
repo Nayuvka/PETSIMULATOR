@@ -7,7 +7,12 @@ public class Poop : MonoBehaviour
 
     private bool isDragging = false;
     private bool isOverBin = false;
+    private PetManager petManager;
 
+    void Awake()
+    {
+        petManager = GameObject.Find("Managers").GetComponent<PetManager>();
+    }
     private void OnMouseDown()
     {
         isDragging = true;
@@ -31,6 +36,7 @@ public class Poop : MonoBehaviour
         {
             OnCleanedUp?.Invoke();
             Destroy(gameObject);
+            petManager.AddHappiness(5f);
         }
     }
 

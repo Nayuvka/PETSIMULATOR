@@ -6219,6 +6219,7 @@ MonoBehaviour:
   canvas: {fileID: 0}
   audioSource: {fileID: 0}
   pettingSound: {fileID: 8300000, guid: 1bd980a7329c326409774c9161c9ef4f, type: 3}
+  eatingSound: {fileID: 8300000, guid: 0e1ed9b921111d64cb32b5f60586163d, type: 3}
 --- !u!4 &904986284
 Transform:
   m_ObjectHideFlags: 0
@@ -7221,7 +7222,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1529788007
 Transform:
   m_ObjectHideFlags: 0

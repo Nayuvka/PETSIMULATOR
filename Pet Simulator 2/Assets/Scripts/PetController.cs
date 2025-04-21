@@ -14,6 +14,7 @@ public class PetController : MonoBehaviour
     // Add these new variables
     public AudioSource audioSource;           // Audio source component
     public AudioClip pettingSound;            // Sound to play when pet is petted
+    public AudioClip eatingSound;
 
     private void Start()
     {
@@ -104,7 +105,9 @@ public class PetController : MonoBehaviour
     public void Happy() => petAnimator.SetTrigger("Happy");
     public void Sad() => petAnimator.SetTrigger("Sad");
     public void Hungry() => petAnimator.SetTrigger("Hungry");
-    public void Eat() => petAnimator.SetTrigger("Eat");
+    public void Eat() =>  petAnimator.SetTrigger("Eat");
+    
+
 
     private void PlaySound(AudioClip clip)
     {

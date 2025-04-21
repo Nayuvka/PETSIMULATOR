@@ -139,24 +139,15 @@ public class PetManager : MonoBehaviour
             StopCoroutine(happinessCoroutine);
             happinessCoroutine = null;
         }
-        
-        // Start the appropriate coroutine based on food level
-        if (foodValue >= 75f)
-        {
-            // No happiness decrease when food is high
-            Debug.Log("Food level high, happiness stable");
-        }
         else if (foodValue >= 25f && foodValue < 75f)
         {
             // Slow happiness decrease
             happinessCoroutine = StartCoroutine(DecreaseHappinessSlow());
-            Debug.Log("Food level medium, happiness decreasing slowly");
         }
         else
         {
             // Rapid happiness decrease
             happinessCoroutine = StartCoroutine(DecreaseHappinessRapid());
-            Debug.Log("Food level low, happiness decreasing rapidly");
         }
         ChangeHappinessText();
     }
@@ -201,8 +192,7 @@ public class PetManager : MonoBehaviour
     {
         AddHappiness(25f);
         // Playing uses energy, so decrease food a bit
-        foodValue -= 5f;
-        foodValue = Mathf.Max(foodValue, 0f);
+        if (foodValue > 0f) foodValue -= 5f;
         hungerBar.value = foodValue;
         
         // Food value changed, so may need to update happiness system

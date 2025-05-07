@@ -1,6 +1,8 @@
+
 using UnityEngine;
 using UnityEngine.UI; // For working with UI elements like Button and InputField
 using TMPro; // For TextMeshPro support
+using UnityEngine.SceneManagement; // For accessing scene information
 
 public class NameInputHandler : MonoBehaviour
 {
@@ -12,11 +14,36 @@ public class NameInputHandler : MonoBehaviour
 
     private void Start()
     {
-        if (petName == null)
+        // Only freeze time if we're in scene 0 (the name input scene)
+        if (SceneManager.GetActiveScene().buildIndex == 0)
         {
             Time.timeScale = 0f;
         }
-        // Listener for setName Button to call name setting fuction
+
+        // Check if we already have a name from PetNameManager
+        if (PetNameManager.Instance != null && !string.IsNullOrEmpty(PetNameManager.Instance.NameTag))
+        {
+            petName = PetNameManager.Instance.NameTag;
+
+            // If we're in scene 0 and already have a name, we might want to show it in the input field
+            if (SceneManager.GetActiveScene().buildIndex == 0)
+            {
+                nameInputField.text = petName;
+            }
+            else
+            {
+                // If we're in any other scene, make sure time is running
+                Time.timeScale = 1f;
+
+                // Hide the input panel in non-initial scenes
+                if (nameInputPanel != null)
+                {
+                    nameInputPanel.SetActive(false);
+                }
+            }
+        }
+
+        // Listener for setName Button to call name setting function
         setNameButton.onClick.AddListener(OnSetNameButtonClicked);
     }
 

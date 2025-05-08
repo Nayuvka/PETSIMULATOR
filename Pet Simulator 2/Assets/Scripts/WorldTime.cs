@@ -49,7 +49,7 @@ public class WorldTime : MonoBehaviour
         }
 
         WorldTimeChanged?.Invoke(this, _currentTime);
-        Debug.Log($"Time updated to: {_currentTime}");
+        //Debug.Log($"Time updated to: {_currentTime}");
 
         StartCoroutine(AddMinute());
     }

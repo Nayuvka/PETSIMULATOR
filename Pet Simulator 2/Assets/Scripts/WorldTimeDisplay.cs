@@ -70,7 +70,7 @@ public class WorldTimeDisplay : MonoBehaviour
             _text.text = timeString;
 
             // For debugging
-            Debug.Log($"Clock updated to: {timeString} (Raw time: {time})");
+            //Debug.Log($"Clock updated to: {timeString} (Raw time: {time})");
         }
         else
         {

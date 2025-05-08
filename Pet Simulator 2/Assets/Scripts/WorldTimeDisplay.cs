@@ -4,53 +4,77 @@ using UnityEngine;
 using TMPro;
 using System;
 
-[RequireComponent(typeof(TMP_Text))]
 public class WorldTimeDisplay : MonoBehaviour
 {
     [SerializeField]
     private WorldTime _worldTime;
 
+    [SerializeField]
     private TMP_Text _text;
 
-    [SerializeField]
-    private float updateSpeed = 2f; // Controls how smoothly the time display updates
-
-    private TimeSpan _targetTime;
-    private TimeSpan _displayTime;
-
-    private void Awake()
+    private void Start()
     {
-        _text = GetComponent<TMP_Text>();
+        // Make sure we have a reference to the text component
+        if (_text == null)
+        {
+            _text = GetComponent<TMP_Text>();
+        }
+
+        // Make sure we have a reference to the WorldTime component
+        if (_worldTime == null)
+        {
+            _worldTime = FindObjectOfType<WorldTime>();
+
+            if (_worldTime == null)
+            {
+                Debug.LogError("WorldTimeDisplay: No WorldTime component found in the scene!");
+                enabled = false;
+                return;
+            }
+        }
+
+        // Register event handler
         _worldTime.WorldTimeChanged += OnWorldTimeChanged;
+
+        // Initialize with current time
+        UpdateTimeDisplay(TimeSpan.Zero);
     }
 
     private void OnDestroy()
     {
-        _worldTime.WorldTimeChanged -= OnWorldTimeChanged;
+        if (_worldTime != null)
+        {
+            _worldTime.WorldTimeChanged -= OnWorldTimeChanged;
+        }
     }
 
     private void OnWorldTimeChanged(object sender, TimeSpan newTime)
     {
-        _targetTime = newTime;
+        UpdateTimeDisplay(newTime);
     }
 
-    private void Update()
+    private void UpdateTimeDisplay(TimeSpan time)
     {
-        // Smoothly update display time toward target time
-        if (_displayTime != _targetTime)
+        if (_text != null)
         {
-            // Gradually move display time towards target time
-            int currentTotalMinutes = (int)_displayTime.TotalMinutes;
-            int targetTotalMinutes = (int)_targetTime.TotalMinutes;
+            // Format hours and minutes with leading zeros
+            int hours = time.Hours;
+            int minutes = time.Minutes;
 
-            if (currentTotalMinutes < targetTotalMinutes)
-            {
-                _displayTime = TimeSpan.FromMinutes(currentTotalMinutes + Time.deltaTime * updateSpeed);
-                if (_displayTime.TotalMinutes > _targetTime.TotalMinutes)
-                    _displayTime = _targetTime;
-            }
+            // Convert to 12-hour format with AM/PM
+            string period = hours >= 12 ? "PM" : "AM";
+            hours = hours % 12;
+            if (hours == 0) hours = 12; // Convert 0 to 12 for 12 AM
 
-            _text.SetText(_displayTime.ToString("hh\\:mm"));
+            string timeString = string.Format("{0:D2}:{1:D2} {2}", hours, minutes, period);
+            _text.text = timeString;
+
+            // For debugging
+            Debug.Log($"Clock updated to: {timeString} (Raw time: {time})");
+        }
+        else
+        {
+            Debug.LogError("WorldTimeDisplay: No text component found!");
         }
     }
 }

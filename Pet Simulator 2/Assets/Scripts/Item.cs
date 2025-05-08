@@ -13,6 +13,9 @@ public class Item : ScriptableObject
     public int itemPrice;
     public string ItemDescription;
     public int itemQuantity;
+    
+    //this is the object that will be spawned in in the game world
+    public GameObject itemPrfab;
     public virtual void Use()
     {
 

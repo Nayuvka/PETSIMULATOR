@@ -48,6 +48,21 @@ public class DisplayItem : MonoBehaviour
             SlotCanvas.alpha = 0;           
         }
     }
+
+    // you need to call this when you place the item on the grid
+    public void PlacingItem()
+    {
+        item = inventory.items[index];
+
+        if (inventory.items.Count > 0 && index < inventory.items.Count && item.itemQuantity == 0) 
+        {
+            inventory.items.RemoveAt(index);
+        }
+        else if (item.itemQuantity > 0)
+        {
+            item.itemQuantity = item.itemQuantity - 1;
+        }
+    }
 }
 
 

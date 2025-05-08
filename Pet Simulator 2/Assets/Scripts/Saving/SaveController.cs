@@ -21,7 +21,7 @@ public class SaveController : MonoBehaviour
         SaveData saveData = new SaveData
         {
             petPosition = GameObject.FindGameObjectWithTag("Pet").transform.position,
-            mapBoundary = FindObjectOfType<CinemachineConfiner>().m_BoundingShape2D.gameObject.name
+           // mapBoundary = FindObjectOfType<CinemachineConfiner>().m_BoundingShape2D.gameObject.name
 
         };
 
@@ -44,7 +44,7 @@ public class SaveController : MonoBehaviour
 
             GameObject.FindGameObjectWithTag("Pet").transform.position = saveData.petPosition;
 
-            FindObjectOfType<CinemachineConfiner>().m_BoundingShape2D = GameObject.Find(saveData.mapBoundary).GetComponent<PolygonCollider2D>();
+           // FindObjectOfType<CinemachineConfiner>().m_BoundingShape2D = GameObject.Find(saveData.mapBoundary).GetComponent<PolygonCollider2D>();
         }
         else
         {

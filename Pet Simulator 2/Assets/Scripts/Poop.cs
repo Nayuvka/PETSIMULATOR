@@ -8,11 +8,15 @@ public class Poop : MonoBehaviour
     private bool isDragging = false;
     private bool isOverBin = false;
     private PetManager petManager;
+    private float objectZ; // Store the object's original Z position
 
     void Awake()
     {
         petManager = GameObject.Find("Managers").GetComponent<PetManager>();
+        // Store the original Z position
+        objectZ = transform.position.z;
     }
+    
     private void OnMouseDown()
     {
         isDragging = true;
@@ -22,9 +26,14 @@ public class Poop : MonoBehaviour
     {
         if (isDragging)
         {
-            Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            mousePos.z = 0;
-            transform.position = mousePos;
+            // Get mouse position with proper z depth
+            Vector3 mouseScreenPos = Input.mousePosition;
+            mouseScreenPos.z = Mathf.Abs(Camera.main.transform.position.z - objectZ);
+            
+            Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(mouseScreenPos);
+            
+            // Keep the original z position of the object
+            transform.position = new Vector3(mouseWorldPos.x, mouseWorldPos.y, objectZ);
         }
     }
 

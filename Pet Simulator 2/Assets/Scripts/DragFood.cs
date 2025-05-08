@@ -1,46 +1,48 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 public class DragFood : MonoBehaviour
 {
     [SerializeField] private PetManager petManager;
     [SerializeField] private SpawnFood spawnFood;
     private bool isDragging = false;
-    private Camera mainCam;
-    public LayerMask FoodLayer;
+    private float objectZ;
 
     void Start()
     {
-        mainCam = Camera.main;
         petManager = GameObject.Find("Managers")?.GetComponent<PetManager>();
         spawnFood = GameObject.Find("Feed")?.GetComponent<SpawnFood>();
+        
+        // Store the original Z position
+        objectZ = transform.position.z;
     }
-    void Update()
+    
+    private void OnMouseDown()
     {
-        DragObject();
+        isDragging = true;
     }
-    private void DragObject()
+
+    private void OnMouseDrag()
     {
-        if (Input.GetMouseButtonDown(0) && !isDragging)
-        {
-            Vector2 mousePos = mainCam.ScreenToWorldPoint(Input.mousePosition);
-            Collider2D click = Physics2D.OverlapPoint(mousePos);
-            if (click != null && click.gameObject == gameObject)
-            {
-                isDragging = true;
-            }
-        }
         if (isDragging)
         {
-            Vector3 mousePos = mainCam.ScreenToWorldPoint(Input.mousePosition);
-            mousePos.z = transform.position.z;
-            transform.position = mousePos;
-        }
-        if (Input.GetMouseButtonUp(0) && isDragging)
-        {
-            isDragging = false;
+            // Get mouse position with proper z depth
+            Vector3 mouseScreenPos = Input.mousePosition;
+            mouseScreenPos.z = Mathf.Abs(Camera.main.transform.position.z - objectZ);
+            
+            Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(mouseScreenPos);
+            
+            // Keep the original z position of the object
+            transform.position = new Vector3(mouseWorldPos.x, mouseWorldPos.y, objectZ);
         }
     }
+
+    private void OnMouseUp()
+    {
+        isDragging = false;
+    }
+    
     void OnTriggerEnter2D(Collider2D pet)
     {
         if (pet.CompareTag("Pet") && isDragging)

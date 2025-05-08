@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
-using UnityEngine.InputSystem;
 
 public class DisplayItem : MonoBehaviour
 {
@@ -18,8 +17,10 @@ public class DisplayItem : MonoBehaviour
     private Camera mainCam;
 
     // Static selection manager
+    private static GameObject draggedItem = null;
     private static DisplayItem currentlySelected = null;
-    private bool isSelected = false;
+    private static bool isDragging = false;
+    private static float draggedItemZ = 0f;
 
     void Start()
     {
@@ -36,94 +37,116 @@ public class DisplayItem : MonoBehaviour
 
     void Update()
     {
-        if (Mouse.current.leftButton.wasPressedThisFrame && isSelected)
+        // Handle dragging
+        if (isDragging && draggedItem != null)
         {
-            PlacingItem();
+            // Make the item follow the mouse (using the same logic as Poop script)
+            Vector3 mouseScreenPos = Input.mousePosition;
+            mouseScreenPos.z = Mathf.Abs(mainCam.transform.position.z - draggedItemZ);
+            
+            Vector3 mouseWorldPos = mainCam.ScreenToWorldPoint(mouseScreenPos);
+            draggedItem.transform.position = new Vector3(mouseWorldPos.x, mouseWorldPos.y, draggedItemZ);
+            
+            // Place the item on left click
+            if (Input.GetMouseButtonDown(0))
+            {
+                PlaceItem();
+            }
+            
+            // Cancel placement on right click
+            if (Input.GetMouseButtonDown(1))
+            {
+                CancelPlacement();
+            }
         }
     }
 
     public void DisplayTheItem()
     {
-        if (inventory.items.Count > 0 && index < inventory.items.Count)
+        if (inventory.items.Count > index)
         {
             item = inventory.items[index];
-            if (itemImage.sprite == null)
-            {
-                Debug.Log("its item icon");
-            }
-            itemImage.sprite = item.icon;
             
+            // Update UI elements
+            itemImage.sprite = item.icon;
             SlotCanvas.alpha = 1;
-            itemQunatityText.text = "" + item.itemQuantity;
-            itemNameText.text = "" + item.itemName;
+            itemQunatityText.text = item.itemQuantity.ToString();
+            itemNameText.text = item.itemName;
         }
         else
         {
+            // Clear the slot when there's no item at this index
+            item = null;
             itemImage.sprite = null;
             SlotCanvas.alpha = 0;
+            itemQunatityText.text = "";
+            itemNameText.text = "";
         }
     }
 
     void SelectItem()
     {
-        if (item != null)
+        if (item != null && !isDragging)
         {
-            // Deselect the previously selected item
-            if (currentlySelected != null && currentlySelected != this)
+            // Cancel any existing placement
+            if (draggedItem != null)
             {
-                currentlySelected.DeselectItem();
+                CancelPlacement();
             }
             
-            // Select this item
-            isSelected = true;
+            // Start dragging
             currentlySelected = this;
-            Debug.Log("itemSelected: " + item.itemName);
-        }
-    }
-
-    void DeselectItem()
-    {
-        isSelected = false;
-        if (currentlySelected == this)
-        {
-            currentlySelected = null;
-        }
-        
-        Debug.Log("Item deselected");
-    }
-
-    public void PlacingItem()
-    {
-        if (!isSelected)
-        {
-            return;
-        }
-        
-        // Use the new Input System to get mouse position
-        Vector2 mouseScreenPos = Mouse.current.position.ReadValue();
-        Vector3 mouseWorldPos = mainCam.ScreenToWorldPoint(new Vector3(mouseScreenPos.x, mouseScreenPos.y, mainCam.nearClipPlane));
-        mouseWorldPos.z = 0;
-        
-        item = inventory.items[index];
-        
-        Instantiate(item.itemPrfab, mouseWorldPos, Quaternion.identity);
-        
-        if (inventory.items.Count > 0 && index < inventory.items.Count && item.itemQuantity == 1)
-        {
-            item.itemQuantity = item.itemQuantity - 1;
-            inventory.items.RemoveAt(index);
-            itemImage.sprite = null;
+            isDragging = true;
             
-            SlotCanvas.alpha = 0;
-            itemQunatityText.text = "";
-            itemNameText.text = "";
+            // Instantiate the item at mouse position (using proper z-depth calculation)
+            Vector3 mouseScreenPos = Input.mousePosition;
+            mouseScreenPos.z = 10f; // Default z distance from camera
+            
+            Vector3 mouseWorldPos = mainCam.ScreenToWorldPoint(mouseScreenPos);
+            
+            draggedItem = Instantiate(item.itemPrfab, mouseWorldPos, Quaternion.identity);
+            
+            // Store the z position of the dragged item
+            draggedItemZ = draggedItem.transform.position.z;
         }
-        else if (item.itemQuantity > 0)
+    }
+
+    void PlaceItem()
+    {
+        if (currentlySelected != this || draggedItem == null) return;
+        
+        // Update the quantity/remove the item BEFORE the display update
+        if (currentlySelected.item.itemQuantity <= 1)
         {
-            item.itemQuantity = item.itemQuantity - 1;
+            currentlySelected.inventory.items.RemoveAt(currentlySelected.index);
+        }
+        else
+        {
+            currentlySelected.item.itemQuantity--;
         }
         
-        // Deselect after placing
-        DeselectItem();
+        // Force all display items to update immediately
+        DisplayItem[] allDisplayItems = FindObjectsOfType<DisplayItem>();
+        foreach (var displayItem in allDisplayItems)
+        {
+            displayItem.DisplayTheItem();
+        }
+        
+        // Reset dragging state
+        isDragging = false;
+        draggedItem = null;
+        currentlySelected = null;
+    }
+
+    void CancelPlacement()
+    {
+        if (draggedItem != null)
+        {
+            Destroy(draggedItem);
+            draggedItem = null;
+        }
+        
+        isDragging = false;
+        currentlySelected = null;
     }
 }

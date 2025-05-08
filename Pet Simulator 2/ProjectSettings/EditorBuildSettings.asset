@@ -14,7 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main.unity
     guid: c607224b9da248f468a4092c950ea4d1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/BurrowDen.unity
     guid: c4b230cb79c80ae4990e59c1503cf769
+  - enabled: 1
+    path: Assets/Scenes/Main 2.unity
+    guid: c435ec52018662a4081d4457036566cc
   m_configObjects: {}

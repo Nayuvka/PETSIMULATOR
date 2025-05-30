@@ -7,23 +7,25 @@ public class Chest : MonoBehaviour, IInteractable
     public bool IsOpened { get; private set; }
     public string ChestID { get; private set; }
     public GameObject itemPrefab; //item that chest drops 
-    public Sprite openedSprite; 
+    public Sprite openedSprite;
+    [Header("Item Drop Settings")]
+    public Vector3 dropOffset = new Vector3(0, 0.5f, 0); // Customizable drop position offset
+    public float dropRadius = 1.5f; // Radius around chest to spawn item
+
     // Start is called before the first frame update
     void Start()
     {
         ChestID ??= GlobalHelper.GenerateUniqueID(gameObject); //UniqueID  
     }
 
-    
-
     public bool CanInteract()
-    { 
-    return !IsOpened;
+    {
+        return !IsOpened;
     }
 
     public void Interact()
     {
-        if(!CanInteract()) return;
+        if (!CanInteract()) return;
         OpenChest();
     }
 
@@ -31,13 +33,27 @@ public class Chest : MonoBehaviour, IInteractable
     {
         //SetOpened 
         SetOpened(true);
-
-
         //DropItem 
         if (itemPrefab)
-        { 
-            GameObject droppedItem = Instantiate(itemPrefab, transform.position + Vector3.down, Quaternion.identity);
-            //droppedItem.GetComponet<BounceEffect>().StartBounce(); 
+        {
+            // Option 1: Simple offset (recommended)
+            Vector3 spawnPosition = transform.position + dropOffset;
+
+           
+
+            GameObject droppedItem = Instantiate(itemPrefab, spawnPosition, Quaternion.identity);
+
+            // Add debugging
+            BounceEffect bounceEffect = droppedItem.GetComponent<BounceEffect>();
+            if (bounceEffect != null)
+            {
+                Debug.Log("BounceEffect found! Starting bounce...");
+                bounceEffect.StartBounce();
+            }
+            else
+            {
+                Debug.LogError("BounceEffect component not found on " + droppedItem.name);
+            }
         }
     }
 
@@ -46,7 +62,7 @@ public class Chest : MonoBehaviour, IInteractable
         IsOpened = opened;
         if (IsOpened)
         {
-            GetComponent<SpriteRenderer>().sprite = openedSprite;    
+            GetComponent<SpriteRenderer>().sprite = openedSprite;
         }
     }
 }

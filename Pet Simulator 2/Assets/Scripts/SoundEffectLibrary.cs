@@ -22,13 +22,27 @@ public class SoundEffectLibrary : MonoBehaviour
         }
     }
 
-   
+   public AudioClip GetRandomClip(string name)
+    {
+        if (soundDictionary.ContainsKey(name))
+        {
+            List<AudioClip> audioClips = soundDictionary[name];
+            if (audioClips.Count > 0)
+            {
+                return audioClips[UnityEngine.Random.Range(0, audioClips.Count)];
+            }
+        }
+        return null;
+
+    }
 }
 
-[System.Serializable]   
+[System.Serializable]
 public struct SoundEffectGroup
 {
     public string name;
-    public List<AudioClip> audioClips; 
+    public List<AudioClip> audioClips;
 }
+
+    
 

@@ -6,8 +6,8 @@ using UnityEngine.UI;
 public class SoundEffectManager : MonoBehaviour
 {
     private static SoundEffectManager instance;
-    private AudioSource audioSource;
-    private SoundEffectLibrary SoundEffectLibrary;
+    public static AudioSource audioSource;
+    private static SoundEffectLibrary soundEffectLibrary;
     [SerializeField] private Slider sfxSlider; 
 
     private void Awake()
@@ -16,7 +16,7 @@ public class SoundEffectManager : MonoBehaviour
         {
             instance = this;
             audioSource = GetComponent<AudioSource>();
-            //soundEffectLibrary = GetComponent<SoundEffectLibrary>();
+            soundEffectLibrary = GetComponent<SoundEffectLibrary>();
             DontDestroyOnLoad(gameObject);
 
 
@@ -26,15 +26,34 @@ public class SoundEffectManager : MonoBehaviour
             Destroy(gameObject);    
         }
     }
-    // Start is called before the first frame update
-    void Start()
+    
+
+    public static void Play(string soundName)
     {
-        
+        AudioClip audioClip = soundEffectLibrary.GetRandomClip(soundName);
+        if(audioClip != null)
+        {
+            audioSource.PlayOneShot(audioClip);
+        }
     }
+
+    private void Start()
+    {
+        sfxSlider.onValueChanged.AddListener(delegate { OnValueChanged(); });
+    }
+
     [Header("Audio")]
     [SerializeField] private AudioClip dialogueTypingSoundClip;
       
+    public static void SetVolume(float volume)
+    {
+        audioSource.volume = volume;
+    }
 
+    public void OnValueChanged()
+    {
+        SetVolume(sfxSlider.value);
+    }
     // Update is called once per frame
    
 

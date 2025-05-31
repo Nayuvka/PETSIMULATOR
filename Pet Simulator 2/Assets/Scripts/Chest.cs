@@ -33,6 +33,7 @@ public class Chest : MonoBehaviour, IInteractable
     {
         //SetOpened 
         SetOpened(true);
+        SoundEffectManager.Play("ChestSound");
         //DropItem 
         if (itemPrefab)
         {

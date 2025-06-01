@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b96c63b970a4ec8418637235ef7a7c06, type: 3}
+  m_Name: LylaDialogue
+  m_EditorClassIdentifier: 
+  npcName: Lyla
+  npcPortrait: {fileID: 0}
+  dialogueLines:
+  - Hello there! Welcome to Wilvera!
+  - You kow the folks that stay here havent left?!
+  - Probably because the folks here are too friendly or maybe its the muffins.
+  autoProgressLines: 010001
+  autoProgressDelay: 1.5
+  typingSpeed: 0.05
+  vowelSounds:
+  - {fileID: 8300000, guid: 49947c0d2f4a2da45be20fad6b99408f, type: 3}
+  - {fileID: 8300000, guid: 5370bab9a62591649939ffb477411d9c, type: 3}
+  - {fileID: 8300000, guid: 39ab023f66e3679409857d19b08c0da8, type: 3}
+  - {fileID: 8300000, guid: 39ab023f66e3679409857d19b08c0da8, type: 3}
+  - {fileID: 8300000, guid: e76a26f43b51b444ab81f936239f577d, type: 3}
+  - {fileID: 8300000, guid: 0ff47acd65cd9ab4a905976e66ce9d5a, type: 3}
+  consonantSounds:
+  - {fileID: 8300000, guid: 936d00eb42b2b114a9a3de205323bca5, type: 3}
+  - {fileID: 8300000, guid: d402677accf86b14fa872740b456fa75, type: 3}
+  - {fileID: 8300000, guid: 812c5d2c011f5d444af3b5022c8f5bf4, type: 3}
+  - {fileID: 8300000, guid: bc9252ef879c7f9459ff933d3db3fd18, type: 3}
+  - {fileID: 8300000, guid: ccf0f95494355dc40afee334d3fba088, type: 3}
+  - {fileID: 8300000, guid: fb49f0742eea08a4bb4dbb3ee5218153, type: 3}
+  - {fileID: 8300000, guid: 93e5b2973be6f28418f36600755ea263, type: 3}
+  - {fileID: 8300000, guid: b380bdbaec12d3d48bea8c47197606f9, type: 3}
+  - {fileID: 8300000, guid: f6acb520c2d6d5144922311bb82d6cc2, type: 3}
+  - {fileID: 8300000, guid: ff0bf8e41f827734191eec4fb465d813, type: 3}
+  - {fileID: 8300000, guid: fe3f4189232aaaf48a4447d810a4c957, type: 3}
+  - {fileID: 8300000, guid: 9af3bd0fc55d0cd48b94de50941c3414, type: 3}
+  - {fileID: 8300000, guid: f258df6864c42d84d8ac949621275d23, type: 3}
+  - {fileID: 8300000, guid: f4adf2581c05db749ad6d7669eecbca1, type: 3}
+  - {fileID: 8300000, guid: 719d3396ba50a124bbbb1ba7630b2d4c, type: 3}
+  - {fileID: 8300000, guid: b35a036dea19372409f73aa502bede96, type: 3}
+  - {fileID: 8300000, guid: 6da170bf6c78e034da12caad21f4bf48, type: 3}
+  - {fileID: 8300000, guid: 4e8a751319422ba4fba6e484517df93d, type: 3}
+  - {fileID: 8300000, guid: 2b995208e17b6e247b7c50e7aedba6f2, type: 3}
+  - {fileID: 8300000, guid: 92332e95c6a26054297f19d9e3e75f47, type: 3}
+  - {fileID: 8300000, guid: 6a62b0b340bebd34bb8ed8fa97ff6820, type: 3}
+  silenceSound: {fileID: 0}
+  voicePitch: 1
+  voiceVolume: 1
+  customStartSound: 
+  customEndSound: 

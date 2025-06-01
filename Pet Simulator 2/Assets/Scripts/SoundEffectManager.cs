@@ -8,7 +8,9 @@ public class SoundEffectManager : MonoBehaviour
     private static SoundEffectManager instance;
     public static AudioSource audioSource;
     private static SoundEffectLibrary soundEffectLibrary;
-    [SerializeField] private Slider sfxSlider; 
+    [SerializeField] private Slider sfxSlider;
+
+    
 
     private void Awake()
     {
@@ -42,8 +44,7 @@ public class SoundEffectManager : MonoBehaviour
         sfxSlider.onValueChanged.AddListener(delegate { OnValueChanged(); });
     }
 
-    [Header("Audio")]
-    [SerializeField] private AudioClip dialogueTypingSoundClip;
+ 
       
     public static void SetVolume(float volume)
     {

@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class NPC : MonoBehaviour, IInteractable
 {
     public NPCDialogue dialogueData;
+    private DialogueController dialogueUI;
     public GameObject dialoguePanel;
     public TMP_Text dialogueText, nameText;
     public Image portraitImage;
@@ -22,7 +23,10 @@ public class NPC : MonoBehaviour, IInteractable
     private readonly char[] vowels = { 'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U' };
     private readonly char[] consonants = {'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z',
                                          'B', 'C', 'D', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'V', 'W', 'X', 'Y', 'Z'};
-
+    private void Start()
+    {
+        dialogueUI = DialogueController.Instance;
+    }
     private void Awake()
     {
         if (audioSource == null)
@@ -53,9 +57,11 @@ public class NPC : MonoBehaviour, IInteractable
     {
         isDialogueActive = true;
         dialogueIndex = 0;
-        nameText.SetText(dialogueData.npcName);
-        portraitImage.sprite = dialogueData.npcPortrait;
-        dialoguePanel.SetActive(true);
+        //nameText.SetText(dialogueData.npcName);
+        //portraitImage.sprite = dialogueData.npcPortrait;
+        dialogueUI.SetNPCInfo(dialogueData.npcName, dialogueData.npcPortrait); 
+        dialogueUI.ShowDialogueUI(true);
+       // dialoguePanel.SetActive(true);
         PauseController.SetPause(true);
 
         if (!string.IsNullOrEmpty(dialogueStartSoundName))
@@ -71,7 +77,8 @@ public class NPC : MonoBehaviour, IInteractable
         if (isTyping)
         {
             StopAllCoroutines();
-            dialogueText.SetText(dialogueData.dialogueLines[dialogueIndex]);
+            // dialogueText.SetText(dialogueData.dialogueLines[dialogueIndex]);
+            dialogueUI.SetDialogueText(dialogueData.dialogueLines[dialogueIndex]);
             isTyping = false;
         }
         else if (++dialogueIndex < dialogueData.dialogueLines.Length)
@@ -87,11 +94,12 @@ public class NPC : MonoBehaviour, IInteractable
     IEnumerator TypeLine()
     {
         isTyping = true;
-        dialogueText.SetText("");
+        dialogueUI.SetDialogueText("");
 
         foreach (char letter in dialogueData.dialogueLines[dialogueIndex])
         {
             dialogueText.text += letter;
+            dialogueUI.SetDialogueText(dialogueUI.dialogueText.text += letter);
 
             // Play phonetic sound for each character
             PlayPhoneticSound(letter);
@@ -165,8 +173,8 @@ public class NPC : MonoBehaviour, IInteractable
     {
         StopAllCoroutines();
         isDialogueActive = false;
-        dialogueText.SetText("");
-        dialoguePanel.SetActive(false);
+        dialogueUI.SetDialogueText("");
+        dialogueUI.ShowDialogueUI(false);
         PauseController.SetPause(false);
 
         if (!string.IsNullOrEmpty(dialogueEndSoundName))

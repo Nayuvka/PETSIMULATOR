@@ -10,6 +10,7 @@ public class InventoryManager : MonoBehaviour
     public int inventorySize = 35;
     public int coins = 1000;
     [SerializeField] private TMP_Text coinText;
+    [SerializeField] private TMP_Text coinText2;
     // Optional: Reference to coin image if you want to animate it
     [SerializeField] private Image coinImage;
 
@@ -18,9 +19,10 @@ public class InventoryManager : MonoBehaviour
         UpdateCoinDisplay();
     }
 
-    private void UpdateCoinDisplay()
+    public void UpdateCoinDisplay()
     {
         coinText.text = coins.ToString(); // Just the number, no "Coins:" prefix
+        coinText2.text = coins.ToString();
     }
 
     public bool AddItem(Item item)

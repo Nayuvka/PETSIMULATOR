@@ -13,6 +13,10 @@ public class DiggingMechanic : MonoBehaviour
     public int minCoins = 1;
     public int maxCoins = 10;
     
+    [Header("Bait System")]
+    public Item baitItem; // The bait scriptable object
+    public float baitChance = 0.15f; // 15% chance to get bait
+    
     private PetSimulator2 PlayerInput;
     private InventoryManager inventoryManager;
     
@@ -77,6 +81,14 @@ public class DiggingMechanic : MonoBehaviour
             {
                 int coinsFound = Random.Range(minCoins, maxCoins + 1);
                 inventoryManager.coins += coinsFound;
+                inventoryManager.UpdateCoinDisplay();
+            }
+            
+            // Check for bait drop when digging
+            if (Random.Range(0f, 1f) <= baitChance)
+            {
+                inventoryManager.AddItem(baitItem);
+                Debug.Log("Found bait!");
             }
         }
     }

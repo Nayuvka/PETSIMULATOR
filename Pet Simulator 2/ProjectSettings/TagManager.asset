@@ -9,6 +9,8 @@ TagManager:
   - Bin
   - Pet
   - 'Event '
+  - Hook
+  - FishingZone
   layers:
   - Default
   - TransparentFX

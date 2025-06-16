@@ -80,6 +80,15 @@ public partial class @PetSimulator2: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""ExitBuild"",
+                    ""type"": ""Button"",
+                    ""id"": ""c39fa673-0fbc-4e21-9f17-c91107c0c1cc"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -333,6 +342,17 @@ public partial class @PetSimulator2: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Fish"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""7965aa37-5f64-426b-a0da-38e47431f7f8"",
+                    ""path"": ""<Keyboard>/b"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""ExitBuild"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -926,6 +946,7 @@ public partial class @PetSimulator2: IInputActionCollection2, IDisposable
         m_Player_Interact = m_Player.FindAction("Interact", throwIfNotFound: true);
         m_Player_Dig = m_Player.FindAction("Dig", throwIfNotFound: true);
         m_Player_Fish = m_Player.FindAction("Fish", throwIfNotFound: true);
+        m_Player_ExitBuild = m_Player.FindAction("ExitBuild", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -1005,6 +1026,7 @@ public partial class @PetSimulator2: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Interact;
     private readonly InputAction m_Player_Dig;
     private readonly InputAction m_Player_Fish;
+    private readonly InputAction m_Player_ExitBuild;
     public struct PlayerActions
     {
         private @PetSimulator2 m_Wrapper;
@@ -1015,6 +1037,7 @@ public partial class @PetSimulator2: IInputActionCollection2, IDisposable
         public InputAction @Interact => m_Wrapper.m_Player_Interact;
         public InputAction @Dig => m_Wrapper.m_Player_Dig;
         public InputAction @Fish => m_Wrapper.m_Player_Fish;
+        public InputAction @ExitBuild => m_Wrapper.m_Player_ExitBuild;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -1042,6 +1065,9 @@ public partial class @PetSimulator2: IInputActionCollection2, IDisposable
             @Fish.started += instance.OnFish;
             @Fish.performed += instance.OnFish;
             @Fish.canceled += instance.OnFish;
+            @ExitBuild.started += instance.OnExitBuild;
+            @ExitBuild.performed += instance.OnExitBuild;
+            @ExitBuild.canceled += instance.OnExitBuild;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
@@ -1064,6 +1090,9 @@ public partial class @PetSimulator2: IInputActionCollection2, IDisposable
             @Fish.started -= instance.OnFish;
             @Fish.performed -= instance.OnFish;
             @Fish.canceled -= instance.OnFish;
+            @ExitBuild.started -= instance.OnExitBuild;
+            @ExitBuild.performed -= instance.OnExitBuild;
+            @ExitBuild.canceled -= instance.OnExitBuild;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -1252,6 +1281,7 @@ public partial class @PetSimulator2: IInputActionCollection2, IDisposable
         void OnInteract(InputAction.CallbackContext context);
         void OnDig(InputAction.CallbackContext context);
         void OnFish(InputAction.CallbackContext context);
+        void OnExitBuild(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {

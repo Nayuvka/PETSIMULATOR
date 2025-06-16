@@ -28,6 +28,11 @@ public class BuyButton : MonoBehaviour
 
     public void AddItemToInventory()
     {
-       inventory.AddItem(itemToAdd);
+        if (inventory.coins > itemToAdd.itemPrice)
+        {
+            inventory.AddItem(itemToAdd);
+            inventory.coins -= itemToAdd.itemPrice;
+            inventory.UpdateCoinDisplay();
+        }
     }
 }

@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cb80e7c637bd814499cbe2fdb1ceed39, type: 3}
-  m_Name: Ball
+  m_Name: Vintage Flooring
   m_EditorClassIdentifier: 
-  itemName: Purple Ball
-  icon: {fileID: 21300000, guid: 10dc32c39298f7d4c8da60d29bf1f99a, type: 3}
-  itemPrice: 100
+  itemName: Vintage Floor
+  icon: {fileID: 6675382541949733778, guid: 94439408925a99b4a82ab11c1434a4bf, type: 3}
+  itemPrice: 25
   ItemDescription: 
   itemQuantity: 1
-  isBuildMaterial: 0
-  tileToPlace: {fileID: 0}
-  itemPrefab: {fileID: 3934626131415236680, guid: e23d1de356df3f943aca2d8200221908, type: 3}
+  isBuildMaterial: 1
+  tileToPlace: {fileID: 11400000, guid: 93475ea7d28da66499e83d8f911b32a1, type: 2}
+  itemPrefab: {fileID: 0}

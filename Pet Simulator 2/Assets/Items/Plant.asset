@@ -17,4 +17,6 @@ MonoBehaviour:
   itemPrice: 20
   ItemDescription: 
   itemQuantity: 1
-  itemPrefab: {fileID: 0}
+  isBuildMaterial: 0
+  tileToPlace: {fileID: 0}
+  itemPrefab: {fileID: 927186388674621691, guid: a7620bfb824adb44796f3be2b30983e5, type: 3}

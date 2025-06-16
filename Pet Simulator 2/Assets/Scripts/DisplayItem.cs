@@ -104,7 +104,7 @@ public class DisplayItem : MonoBehaviour
             
             Vector3 mouseWorldPos = mainCam.ScreenToWorldPoint(mouseScreenPos);
             
-            draggedItem = Instantiate(item.itemPrefab, mouseWorldPos, Quaternion.identity);
+            draggedItem = Instantiate(item.itemPrefab, new Vector3(mouseWorldPos.x, mouseWorldPos.y, 0), Quaternion.identity);
             
             // Store the z position of the dragged item
             draggedItemZ = draggedItem.transform.position.z;

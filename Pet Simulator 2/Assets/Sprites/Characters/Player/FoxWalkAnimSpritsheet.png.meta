@@ -1,0 +1,1609 @@
+fileFormatVersion: 2
+guid: dc78fe9a62f5dab46b337ebfe625d620
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_0
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1918
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 961f1399006ad8c41b0cf57db99ad250
+      internalID: -1478289413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_1
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1918
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b3a3c029468184da685deaebe76c6a
+      internalID: -2097590978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_2
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1918
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c49e6311ace4c4a921fbdc253eb56e
+      internalID: 1884465415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_3
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1918
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6593b1dee855e419f4147492a59832
+      internalID: -1098403176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_4
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1918
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88cbad164c4bb7c42b12bf08f9189cca
+      internalID: -534301015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_5
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1918
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1396d2319a6b17d469750fa787373fa6
+      internalID: -45046830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_6
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1918
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553913c5ec6757f48a14fd4698256e15
+      internalID: 1744214134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_7
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1918
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0a1df6e9a0980498f2107c8447ee66
+      internalID: 334909169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_16
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1662
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494fd94f51b75ea4cbc709a1cd57d7b5
+      internalID: -1159937615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_17
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1662
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c063b7f4d38c7489784a375a74b157
+      internalID: 895407722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_18
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1662
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab15efc5b0f6cb40a1ef969c852a04c
+      internalID: 1645641456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_19
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1662
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33dd5e3390cf674b93fd997df8b238e
+      internalID: -600955592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_20
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1662
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d65ea939ef99841a62dfd72e28a4ce
+      internalID: 870404519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_21
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1662
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ce77d6209784b418dc9457aafdcab1
+      internalID: 777031555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_22
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1662
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a4828a7fb31e9409ca4b8481c827b8
+      internalID: 1776553369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_23
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1662
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607efc5900fbb174d9a265a04dd3874b
+      internalID: 130097979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_31
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 1534
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b3d771dbb4e614c92c81e978085e53
+      internalID: 1730130835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_32
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1406
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e2f3499c6727547869c97129784e17
+      internalID: -153629231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_33
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1406
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb604501c553df4c82115df306648f8
+      internalID: -1008063550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_34
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1406
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faee55533cd4d45449c527d9d1370073
+      internalID: -967905223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_35
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1406
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926414b41663fe746a762e204fd78bd1
+      internalID: -1566634194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_36
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1406
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e2614f05cdd8a448075cfbf467e432
+      internalID: 1613531381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_37
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1406
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb2bb2150529324284d11bcb8292132
+      internalID: -2033079515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_38
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1406
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c42a2d0223680408ae6c9550a0d0f7
+      internalID: -1825728757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_39
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1406
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3add10ffea8f4964b89f4c53aa29080c
+      internalID: 1609779564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_54
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1150
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac942b24e6fac1d48b7b41262eeb4c70
+      internalID: 1686766678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_55
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1150
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca45c249daa6924e93528898372f233
+      internalID: 1364974540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_56
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1150
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583d8f8cf2ebc9f48842a35bb29f1838
+      internalID: 379530925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_57
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1150
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4daae13dac54884390b5e7da5a79e48
+      internalID: 73100614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_58
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1150
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7397cb101a0e55d45b8ff3b96e0c6e1a
+      internalID: 977484301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_59
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1150
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6417e297e7a39d4c9bd19f478cf80ea
+      internalID: 1535779461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_60
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1150
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d93006338cf18a48bb5f8e9ef3e3c4e
+      internalID: -1448026606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_61
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1150
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fded82c448e7489458579fc9930b6d0a
+      internalID: 464668847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_69
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 894
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea71c42e4c773f4d84b385aa60fdcf3
+      internalID: -638860239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_70
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 894
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a72fbb4ad7f12458deac6f895fb9be
+      internalID: 1062428829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_71
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 894
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175f2daf79ced7c4f82d1971e8efe9b5
+      internalID: -1071727545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_72
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 894
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b2b5c103854d84eb856cfc5b4c403d
+      internalID: -1062842205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_73
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 894
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9e31131cabb89469efe30dc0a7ae7f
+      internalID: 97256853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_74
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 894
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edbf7ec5fb0ec624d9a45329d9eecd7e
+      internalID: -873343291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_75
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 894
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d686e735f93e0c44bb73360b3bf4a85
+      internalID: -1256770953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_76
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 894
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452684890eadcb94e9ed7768d51dd1ab
+      internalID: 1407685151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_84
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 638
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e227e405c61cba04ead629b177275114
+      internalID: -323211045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_85
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 638
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf41b7411661e204f990e0bdf6e99542
+      internalID: -874394262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_86
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 638
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0281644cc26d93349a0f71827ce0a59d
+      internalID: -976622986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_87
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 638
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ec3568e6157334e8a75e6b3c136e0f
+      internalID: 1368946859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_88
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 638
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e58959c1b9d1143a2c45ab6a26db45
+      internalID: 339218235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_89
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 638
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df6d7eb8fa22d5408ca4177fb5dc5b1
+      internalID: 833884457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_90
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 638
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093600a2c1ce667469148974eb05bd13
+      internalID: 1285382268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_91
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 638
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd70743656800040b041a70497e209e
+      internalID: -1019512627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_103
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 382
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f5cef67b8e7174e9d2c6e602ac6f57
+      internalID: 580084467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_104
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 382
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0fa47b2fe340954ebfdcb60925d0091
+      internalID: -1595992606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_105
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 382
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472955eb95f2c3c46aaa807dd6c44695
+      internalID: 1732945246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_106
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 382
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fabbbd49f9d6d3044ad78440a768f837
+      internalID: -558639310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_107
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 382
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f5e7039ed35214c9fa8e8d0fab0640
+      internalID: -46707710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_108
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 382
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410404c6311081349a6d7d9088ece2ca
+      internalID: -447580014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_109
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 382
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b889120feab0682468a45664096d825a
+      internalID: -2066250561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_110
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 382
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786c9d7b06d848b4b91e39d1fefc94af
+      internalID: 211663483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_122
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 126
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17cea2b6d86874246af1cd15032e6e73
+      internalID: -1394970258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_123
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 126
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8caf36dff598147b2c1976b490309d
+      internalID: 1987837157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_124
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 126
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9fffc5304a523d44b9579866f9b7d03
+      internalID: -1673730291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_125
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 126
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6bd2781b620c9740ba1d7fbad430676
+      internalID: 225996056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_126
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 126
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbe3bd3a132158419f4fa75a5e71a54
+      internalID: 474066586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_127
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 126
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0b72cc09d15624798648aea34d21a2
+      internalID: -1813312023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_128
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 126
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11936d0640cebc34dbf707dd3003bf0d
+      internalID: 1695495003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxWalkAnimSpritsheet_129
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 126
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302e31268d276cc49adbbb4a12ecbb0f
+      internalID: 1055886003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      FoxWalkAnimSpritsheet_0: -1478289413
+      FoxWalkAnimSpritsheet_1: -2097590978
+      FoxWalkAnimSpritsheet_10: 1679152586
+      FoxWalkAnimSpritsheet_100: -217833141
+      FoxWalkAnimSpritsheet_101: -150275084
+      FoxWalkAnimSpritsheet_102: -696468056
+      FoxWalkAnimSpritsheet_103: 580084467
+      FoxWalkAnimSpritsheet_104: -1595992606
+      FoxWalkAnimSpritsheet_105: 1732945246
+      FoxWalkAnimSpritsheet_106: -558639310
+      FoxWalkAnimSpritsheet_107: -46707710
+      FoxWalkAnimSpritsheet_108: -447580014
+      FoxWalkAnimSpritsheet_109: -2066250561
+      FoxWalkAnimSpritsheet_11: -1259629904
+      FoxWalkAnimSpritsheet_110: 211663483
+      FoxWalkAnimSpritsheet_111: -382499560
+      FoxWalkAnimSpritsheet_112: -999511803
+      FoxWalkAnimSpritsheet_113: -244987563
+      FoxWalkAnimSpritsheet_114: 1793343149
+      FoxWalkAnimSpritsheet_115: 1459672999
+      FoxWalkAnimSpritsheet_116: -1981942168
+      FoxWalkAnimSpritsheet_117: -2004666886
+      FoxWalkAnimSpritsheet_118: 532991373
+      FoxWalkAnimSpritsheet_119: 1854157179
+      FoxWalkAnimSpritsheet_12: -1869265513
+      FoxWalkAnimSpritsheet_120: 1264048561
+      FoxWalkAnimSpritsheet_121: 1838840175
+      FoxWalkAnimSpritsheet_122: -1394970258
+      FoxWalkAnimSpritsheet_123: 1987837157
+      FoxWalkAnimSpritsheet_124: -1673730291
+      FoxWalkAnimSpritsheet_125: 225996056
+      FoxWalkAnimSpritsheet_126: 474066586
+      FoxWalkAnimSpritsheet_127: -1813312023
+      FoxWalkAnimSpritsheet_128: 1695495003
+      FoxWalkAnimSpritsheet_129: 1055886003
+      FoxWalkAnimSpritsheet_13: 510871730
+      FoxWalkAnimSpritsheet_14: 443565138
+      FoxWalkAnimSpritsheet_15: 1935381655
+      FoxWalkAnimSpritsheet_16: -1159937615
+      FoxWalkAnimSpritsheet_17: 895407722
+      FoxWalkAnimSpritsheet_18: 1645641456
+      FoxWalkAnimSpritsheet_19: -600955592
+      FoxWalkAnimSpritsheet_2: 1884465415
+      FoxWalkAnimSpritsheet_20: 870404519
+      FoxWalkAnimSpritsheet_21: 777031555
+      FoxWalkAnimSpritsheet_22: 1776553369
+      FoxWalkAnimSpritsheet_23: 130097979
+      FoxWalkAnimSpritsheet_24: 529155422
+      FoxWalkAnimSpritsheet_25: 2000953901
+      FoxWalkAnimSpritsheet_26: 1257123654
+      FoxWalkAnimSpritsheet_27: -330119779
+      FoxWalkAnimSpritsheet_28: 275621517
+      FoxWalkAnimSpritsheet_29: 1947874651
+      FoxWalkAnimSpritsheet_3: -1098403176
+      FoxWalkAnimSpritsheet_30: 635943310
+      FoxWalkAnimSpritsheet_31: 1730130835
+      FoxWalkAnimSpritsheet_32: -153629231
+      FoxWalkAnimSpritsheet_33: -1008063550
+      FoxWalkAnimSpritsheet_34: -967905223
+      FoxWalkAnimSpritsheet_35: -1566634194
+      FoxWalkAnimSpritsheet_36: 1613531381
+      FoxWalkAnimSpritsheet_37: -2033079515
+      FoxWalkAnimSpritsheet_38: -1825728757
+      FoxWalkAnimSpritsheet_39: 1609779564
+      FoxWalkAnimSpritsheet_4: -534301015
+      FoxWalkAnimSpritsheet_40: 713060830
+      FoxWalkAnimSpritsheet_41: -1149718344
+      FoxWalkAnimSpritsheet_42: -2097510133
+      FoxWalkAnimSpritsheet_43: -1831497820
+      FoxWalkAnimSpritsheet_44: -1514948052
+      FoxWalkAnimSpritsheet_45: 378170499
+      FoxWalkAnimSpritsheet_46: 413174711
+      FoxWalkAnimSpritsheet_47: -1083007840
+      FoxWalkAnimSpritsheet_48: 1986562031
+      FoxWalkAnimSpritsheet_49: 1831502516
+      FoxWalkAnimSpritsheet_5: -45046830
+      FoxWalkAnimSpritsheet_50: -1713393973
+      FoxWalkAnimSpritsheet_51: -2145800499
+      FoxWalkAnimSpritsheet_52: 1692423314
+      FoxWalkAnimSpritsheet_53: -2027079362
+      FoxWalkAnimSpritsheet_54: 1686766678
+      FoxWalkAnimSpritsheet_55: 1364974540
+      FoxWalkAnimSpritsheet_56: 379530925
+      FoxWalkAnimSpritsheet_57: 73100614
+      FoxWalkAnimSpritsheet_58: 977484301
+      FoxWalkAnimSpritsheet_59: 1535779461
+      FoxWalkAnimSpritsheet_6: 1744214134
+      FoxWalkAnimSpritsheet_60: -1448026606
+      FoxWalkAnimSpritsheet_61: 464668847
+      FoxWalkAnimSpritsheet_62: -1936527255
+      FoxWalkAnimSpritsheet_63: -2139763878
+      FoxWalkAnimSpritsheet_64: 1051178457
+      FoxWalkAnimSpritsheet_65: -611229494
+      FoxWalkAnimSpritsheet_66: 499894321
+      FoxWalkAnimSpritsheet_67: -1511732771
+      FoxWalkAnimSpritsheet_68: -1679834059
+      FoxWalkAnimSpritsheet_69: -638860239
+      FoxWalkAnimSpritsheet_7: 334909169
+      FoxWalkAnimSpritsheet_70: 1062428829
+      FoxWalkAnimSpritsheet_71: -1071727545
+      FoxWalkAnimSpritsheet_72: -1062842205
+      FoxWalkAnimSpritsheet_73: 97256853
+      FoxWalkAnimSpritsheet_74: -873343291
+      FoxWalkAnimSpritsheet_75: -1256770953
+      FoxWalkAnimSpritsheet_76: 1407685151
+      FoxWalkAnimSpritsheet_77: -1623884317
+      FoxWalkAnimSpritsheet_78: 1517759460
+      FoxWalkAnimSpritsheet_79: -1676753948
+      FoxWalkAnimSpritsheet_8: 452751166
+      FoxWalkAnimSpritsheet_80: -1770877335
+      FoxWalkAnimSpritsheet_81: 891330561
+      FoxWalkAnimSpritsheet_82: -2108282114
+      FoxWalkAnimSpritsheet_83: -1245466450
+      FoxWalkAnimSpritsheet_84: -323211045
+      FoxWalkAnimSpritsheet_85: -874394262
+      FoxWalkAnimSpritsheet_86: -976622986
+      FoxWalkAnimSpritsheet_87: 1368946859
+      FoxWalkAnimSpritsheet_88: 339218235
+      FoxWalkAnimSpritsheet_89: 833884457
+      FoxWalkAnimSpritsheet_9: -148592754
+      FoxWalkAnimSpritsheet_90: 1285382268
+      FoxWalkAnimSpritsheet_91: -1019512627
+      FoxWalkAnimSpritsheet_92: -609509104
+      FoxWalkAnimSpritsheet_93: -980543672
+      FoxWalkAnimSpritsheet_94: -1455817515
+      FoxWalkAnimSpritsheet_95: 1835325565
+      FoxWalkAnimSpritsheet_96: 1707355876
+      FoxWalkAnimSpritsheet_97: -2073502312
+      FoxWalkAnimSpritsheet_98: 2012367516
+      FoxWalkAnimSpritsheet_99: 154054921
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

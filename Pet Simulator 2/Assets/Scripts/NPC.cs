@@ -23,10 +23,15 @@ public class NPC : MonoBehaviour, IInteractable
     private readonly char[] vowels = { 'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U' };
     private readonly char[] consonants = {'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z',
                                          'B', 'C', 'D', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'V', 'W', 'X', 'Y', 'Z'};
+
+    // Store the current text being typed
+    private string currentTypedText = "";
+
     private void Start()
     {
         dialogueUI = DialogueController.Instance;
     }
+
     private void Awake()
     {
         if (audioSource == null)
@@ -57,11 +62,8 @@ public class NPC : MonoBehaviour, IInteractable
     {
         isDialogueActive = true;
         dialogueIndex = 0;
-        //nameText.SetText(dialogueData.npcName);
-        //portraitImage.sprite = dialogueData.npcPortrait;
-        dialogueUI.SetNPCInfo(dialogueData.npcName, dialogueData.npcPortrait); 
+        dialogueUI.SetNPCInfo(dialogueData.npcName, dialogueData.npcPortrait);
         dialogueUI.ShowDialogueUI(true);
-       // dialoguePanel.SetActive(true);
         PauseController.SetPause(true);
 
         if (!string.IsNullOrEmpty(dialogueStartSoundName))
@@ -77,7 +79,7 @@ public class NPC : MonoBehaviour, IInteractable
         if (isTyping)
         {
             StopAllCoroutines();
-            // dialogueText.SetText(dialogueData.dialogueLines[dialogueIndex]);
+            // Show the complete line immediately
             dialogueUI.SetDialogueText(dialogueData.dialogueLines[dialogueIndex]);
             isTyping = false;
         }
@@ -94,12 +96,16 @@ public class NPC : MonoBehaviour, IInteractable
     IEnumerator TypeLine()
     {
         isTyping = true;
-        dialogueUI.SetDialogueText("");
+        currentTypedText = ""; // Reset the typed text
+        dialogueUI.SetDialogueText(""); // Clear the dialogue
 
         foreach (char letter in dialogueData.dialogueLines[dialogueIndex])
         {
-            dialogueText.text += letter;
-            dialogueUI.SetDialogueText(dialogueUI.dialogueText.text += letter);
+            // Add letter to our current typed text
+            currentTypedText += letter;
+
+            // Update the dialogue UI with the current typed text
+            dialogueUI.SetDialogueText(currentTypedText);
 
             // Play phonetic sound for each character
             PlayPhoneticSound(letter);

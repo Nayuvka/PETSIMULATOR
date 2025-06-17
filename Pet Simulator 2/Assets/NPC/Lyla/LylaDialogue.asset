@@ -15,10 +15,15 @@ MonoBehaviour:
   npcName: Lyla
   npcPortrait: {fileID: 0}
   dialogueLines:
-  - Hello there! Welcome to Wilvera!
+  - Hello there! I'm Lyla! Welcome to Wilvera!
   - You kow the folks that stay here havent left?!
   - Probably because the folks here are too friendly or maybe its the muffins.
-  autoProgressLines: 010001
+  - 'Y''know... I really need someone to catch some fish for me.... '
+  - but you needa get some bait so start digging holes by pressing 'Q'
+  - ...then press the couch to look into your inventory
+  - once you've got the bait..follow the path to the dam and press 'Tab' to start
+    fish'n!
+  autoProgressLines: 01010100000000
   autoProgressDelay: 1.5
   typingSpeed: 0.05
   vowelSounds:
@@ -34,7 +39,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 812c5d2c011f5d444af3b5022c8f5bf4, type: 3}
   - {fileID: 8300000, guid: bc9252ef879c7f9459ff933d3db3fd18, type: 3}
   - {fileID: 8300000, guid: ccf0f95494355dc40afee334d3fba088, type: 3}
-  - {fileID: 8300000, guid: fb49f0742eea08a4bb4dbb3ee5218153, type: 3}
+  - {fileID: 0}
   - {fileID: 8300000, guid: 93e5b2973be6f28418f36600755ea263, type: 3}
   - {fileID: 8300000, guid: b380bdbaec12d3d48bea8c47197606f9, type: 3}
   - {fileID: 8300000, guid: f6acb520c2d6d5144922311bb82d6cc2, type: 3}

@@ -101,8 +101,14 @@ public class PetController : MonoBehaviour
             moveInput.Normalize();
         }
 
-        // Set animation parameters if you have them
+        // Check if the pet is moving and update animation
         isMoving = moveInput.magnitude > 0.1f;
+
+        // Update the animator with the walking state
+        if (petAnimator != null)
+        {
+            petAnimator.SetBool("isWalking", isMoving);
+        }
 
         // Check for right-click input for petting
         if (Input.GetMouseButtonDown(1)) // 0 is left click, 1 is right click

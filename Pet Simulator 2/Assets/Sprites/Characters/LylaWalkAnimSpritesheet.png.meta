@@ -1,0 +1,1038 @@
+fileFormatVersion: 2
+guid: 5b019613a9e591e48a84e927566294a5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1915
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30d1dd5b7ea60c4a834767231359543
+      internalID: 256690613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1915
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8bfd3c5e596359428d54cf9a236323c
+      internalID: -89484184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1915
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7707cc87f3b02240a9daa9a1def2425
+      internalID: -870936824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1915
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f78703dd97433942b36fb95afbf4d24
+      internalID: -1697821755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 1915
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8eecb1630183046afb9c4a1e5c6a54
+      internalID: -2103359036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 1915
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9f9a1249551ba408a89c02df89e240
+      internalID: -2133182385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1915
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d7255d59dd6d34e93721fdb039d5a1
+      internalID: 2084797220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 1915
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d4cc5fb3ae8344590fe742865afa4e
+      internalID: -1798085244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1659
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec2e14252498b141ac94e8a84101fee
+      internalID: -2053121771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1659
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3f560188a73a7469b0e1fd9c9c12e3
+      internalID: -1654509532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1659
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480ebab9ff9d0e34d9fb730ce000bd3c
+      internalID: 1193564068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1659
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f35a15f62df974b827d4bb30818aa7
+      internalID: -792585496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 1659
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb4af27e06ff51459ae85a2ac312849
+      internalID: 562987801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 1659
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a787eddbb68e3cf4596177cece49a0c7
+      internalID: -1109752644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1659
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a4ccc7aca8e404a8ca76294230d1f9
+      internalID: 1454377640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 1659
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e440a767122064394d35496f3e59e6
+      internalID: -1429971594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1403
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973e4cffa2e51e3448cc0bdc1e6047c4
+      internalID: 772483578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1403
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04309eb2bc9ece345943aa866dd242d3
+      internalID: 1093347204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1403
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1392c0e1d5a0994a8fbbfa0f2a7c32f
+      internalID: -530097345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1403
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7f3c5beef51c94494b7aaff9a9ded1
+      internalID: 524619144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 1403
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1ea8a300bf6474c993966580f4c7a0
+      internalID: 34513089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 1403
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd5e28f010e41b428faab53f1d398c7
+      internalID: 691807965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1403
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2874cacf8ca97a549a8ae1f4c9dccdd1
+      internalID: 782170555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 1403
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4808557b3a13a14abac9e7283850271
+      internalID: 1014434114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1147
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4342bae5c5bf5784ab2fce66440bc502
+      internalID: -1387113986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1147
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b233c9ae919607f40aa443933dbd3994
+      internalID: -1198297387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1147
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce808d3294bba846af4d8144e4bc3ca
+      internalID: 1620152923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1147
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782a9ec6765f497489d4a3e8ad1fc61d
+      internalID: 863988318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 1147
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785fdfdeab376d54e88ab59ba2f1b35d
+      internalID: 1202178477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 1147
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f1a5f89bc558f4b914c57a8a81d2de
+      internalID: 1245652919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1147
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3309f1d92433546a739a7d18747da2
+      internalID: -994296395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 1147
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53f48cc78890f647a84d3c4f1f1b9e5
+      internalID: -1933652099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 891
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fac0c871d1eb1e4bafd84af519035c4
+      internalID: -1341607619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 891
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68d9fe3922ae74498351e02d4c47520
+      internalID: 1653460502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 891
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c803ebe82425a541b797c22f9964915
+      internalID: -2055094601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 891
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818997636714ac14abf650aeb962d02b
+      internalID: 118727239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 891
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f849914e9c7d1d240a817d0aa226a9de
+      internalID: 981034896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 891
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5598d1366976414cbfb49d5997116d8
+      internalID: -1380764319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 891
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90de1a16604b1754baa501cd890c99f1
+      internalID: 1886420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 891
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6d99012cd44a84eb729bd4b33352bf
+      internalID: -1760887796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 635
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e21bcf6f090664d8d399b9127983d7
+      internalID: 1902484812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaWalkAnimSpritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 635
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3012e1e01751f484bae7b26ec41f6b69
+      internalID: 1396036413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LylaWalkAnimSpritesheet_0: 256690613
+      LylaWalkAnimSpritesheet_1: -89484184
+      LylaWalkAnimSpritesheet_10: 1193564068
+      LylaWalkAnimSpritesheet_11: -792585496
+      LylaWalkAnimSpritesheet_12: 562987801
+      LylaWalkAnimSpritesheet_13: -1109752644
+      LylaWalkAnimSpritesheet_14: 1454377640
+      LylaWalkAnimSpritesheet_15: -1429971594
+      LylaWalkAnimSpritesheet_16: 772483578
+      LylaWalkAnimSpritesheet_17: 1093347204
+      LylaWalkAnimSpritesheet_18: -530097345
+      LylaWalkAnimSpritesheet_19: 524619144
+      LylaWalkAnimSpritesheet_2: -870936824
+      LylaWalkAnimSpritesheet_20: 34513089
+      LylaWalkAnimSpritesheet_21: 691807965
+      LylaWalkAnimSpritesheet_22: 782170555
+      LylaWalkAnimSpritesheet_23: 1014434114
+      LylaWalkAnimSpritesheet_24: -1387113986
+      LylaWalkAnimSpritesheet_25: -1198297387
+      LylaWalkAnimSpritesheet_26: 1620152923
+      LylaWalkAnimSpritesheet_27: 863988318
+      LylaWalkAnimSpritesheet_28: 1202178477
+      LylaWalkAnimSpritesheet_29: 1245652919
+      LylaWalkAnimSpritesheet_3: -1697821755
+      LylaWalkAnimSpritesheet_30: -994296395
+      LylaWalkAnimSpritesheet_31: -1933652099
+      LylaWalkAnimSpritesheet_32: -1341607619
+      LylaWalkAnimSpritesheet_33: 1653460502
+      LylaWalkAnimSpritesheet_34: -2055094601
+      LylaWalkAnimSpritesheet_35: 118727239
+      LylaWalkAnimSpritesheet_36: 981034896
+      LylaWalkAnimSpritesheet_37: -1380764319
+      LylaWalkAnimSpritesheet_38: 1886420
+      LylaWalkAnimSpritesheet_39: -1760887796
+      LylaWalkAnimSpritesheet_4: -2103359036
+      LylaWalkAnimSpritesheet_40: 1902484812
+      LylaWalkAnimSpritesheet_41: 1396036413
+      LylaWalkAnimSpritesheet_5: -2133182385
+      LylaWalkAnimSpritesheet_6: 2084797220
+      LylaWalkAnimSpritesheet_7: -1798085244
+      LylaWalkAnimSpritesheet_8: -2053121771
+      LylaWalkAnimSpritesheet_9: -1654509532
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

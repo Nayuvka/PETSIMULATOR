@@ -12,45 +12,71 @@ public class WaypointMover : MonoBehaviour
     private Transform[] waypoints;
     private int currentwaypointIndex;
     private bool isWaiting;
+    private Animator animator;
+    private SpriteRenderer spriteRenderer; // Add this for sprite flipping
+
     void Start()
     {
-        waypoints = new Transform[waypointParent.childCount];
+        animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>(); // Get the SpriteRenderer component
 
-        for(int i = 0; i < waypointParent.childCount; i++)
+        waypoints = new Transform[waypointParent.childCount];
+        for (int i = 0; i < waypointParent.childCount; i++)
         {
-            waypoints[i] = waypointParent .GetChild(i); 
+            waypoints[i] = waypointParent.GetChild(i);
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if(PauseController.IsGamePaused || isWaiting)
+        if (PauseController.IsGamePaused || isWaiting)
         {
+            animator.SetBool("isWalking", false);
             return;
         }
-
         MoveToWaypoint();
     }
+
     void MoveToWaypoint()
     {
         Transform target = waypoints[currentwaypointIndex];
-        transform.position = Vector2.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);  
-        
-        if(Vector2.Distance(transform.position, target.position) < 0.1f)
+        Vector2 direction = (target.position - transform.position).normalized;
+        transform.position = Vector2.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
+
+        // Set animator parameters
+        animator.SetFloat("InputX", direction.x);
+        animator.SetBool("isWalking", direction.magnitude > 0f);
+
+        // Flip the sprite based on movement direction
+        FlipSprite(direction.x);
+
+        if (Vector2.Distance(transform.position, target.position) < 0.1f)
         {
             StartCoroutine(WaitAtWaypoint());
+        }
+    }
+
+    void FlipSprite(float directionX)
+    {
+        if (spriteRenderer == null) return;
+
+        // Only flip if there's significant horizontal movement
+        if (Mathf.Abs(directionX) > 0.1f)
+        {
+            // Flip the sprite: true = facing left, false = facing right
+            spriteRenderer.flipX = directionX < 0;
         }
     }
 
     IEnumerator WaitAtWaypoint()
     {
         isWaiting = true;
+        animator.SetBool("isWalking", false);
         yield return new WaitForSeconds(waitTime);
+
         //if looping enabled - increment currentwaypointindex and wrap around if needed 
         //if not looping- increment currentwaypointindex but dont exceed last waypoint
-        currentwaypointIndex = loopWaypoints ? (currentwaypointIndex +1) % waypoints.Length : Mathf.Min(currentwaypointIndex + 1, waypoints.Length - 1);
-
-        isWaiting = false; 
-            }
+        currentwaypointIndex = loopWaypoints ? (currentwaypointIndex + 1) % waypoints.Length : Mathf.Min(currentwaypointIndex + 1, waypoints.Length - 1);
+        isWaiting = false;
+    }
 }

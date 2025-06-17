@@ -1,0 +1,950 @@
+fileFormatVersion: 2
+guid: 699218b9be382354fb72c690526c12f8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LylaIdleAnimSpritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1915
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0e9c22bdeed6444b4a37b0fe9013d8
+      internalID: 1531063096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaIdleAnimSpritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1915
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2c42edf5e28234b8706ccaf3c39afb
+      internalID: 1689786731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaIdleAnimSpritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1915
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab5eed2e40f10e4e847962db5736f36
+      internalID: -431446471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaIdleAnimSpritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1915
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa39ae1072554ee48bb5c20dfdedb07a
+      internalID: 290989443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaIdleAnimSpritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 1915
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96754274be3a571408059ed454952b52
+      internalID: 620492331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaIdleAnimSpritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 1915
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2fc0136f33b4694cad42612ba5019ab
+      internalID: -1656784988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaIdleAnimSpritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1915
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6c472b168b754409a351098aeecc26
+      internalID: 581400163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaIdleAnimSpritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 1915
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f083c6df62483544691c0da48d0aee40
+      internalID: -1827358829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaIdleAnimSpritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1659
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8a17cc5ef623d4787cbcabee5bd4ac
+      internalID: 1265344744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaIdleAnimSpritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1659
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6004d7d943d3ce840a92401757f0f2b9
+      internalID: 1211942175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaIdleAnimSpritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1659
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6059bdedc6f60704d94747d161e62b10
+      internalID: 434976621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaIdleAnimSpritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1659
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d89a67fc582184e9dda386d84375c0
+      internalID: -1330525860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaIdleAnimSpritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 1659
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd11e48b4954f747ba53c5d41d628e5
+      internalID: 1886117836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaIdleAnimSpritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 1659
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81f53a14730d5e44a6800cb19d7cf6c
+      internalID: -1234473875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaIdleAnimSpritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1659
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f890881f7c4593c4f94c53c9ed4b3835
+      internalID: 1507290609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaIdleAnimSpritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 1659
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16549ecbf9772e24c9fe22e23e1076bd
+      internalID: -392486339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaIdleAnimSpritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1403
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ff4a795fdbb404ba7437564169b815
+      internalID: -660527463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaIdleAnimSpritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1403
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7019d39f179fb154fbb0c0393503f083
+      internalID: 4180650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaIdleAnimSpritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1403
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1d70354dfe1a241913d50199e20688
+      internalID: -736876489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaIdleAnimSpritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1403
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276a14c1cb3ed8a45b7430fae8f76f1b
+      internalID: -2128190527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaIdleAnimSpritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 1403
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd7f0db26ace72418b83a4fb9011c47
+      internalID: -561459745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaIdleAnimSpritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 1403
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46268928fa974504eaadc56c764583c5
+      internalID: -1617933062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaIdleAnimSpritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1403
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c735aa4f3b0f548a6a39e1f50ed237
+      internalID: 1840318789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaIdleAnimSpritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 1403
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1defeae06fdfdbb43b5bbbc8cb9abfd7
+      internalID: 1444800144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaIdleAnimSpritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1147
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7dddf1314420334389a3dfc288fa0a5
+      internalID: 1995981126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaIdleAnimSpritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1147
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88b878ef0ea40a469c1ab2b8bd008c8
+      internalID: 631216634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaIdleAnimSpritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1147
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0da73af0da7714087e58f45a34364e
+      internalID: 849359674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaIdleAnimSpritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1147
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920b615fe300e6a45a149a7db3dcde2d
+      internalID: 665702969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaIdleAnimSpritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 1147
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9bdd742e3c1554c84ca1b437b1063d
+      internalID: -1713812757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaIdleAnimSpritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 1147
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9707baebfeddc040ac81ac348496bcb
+      internalID: 1324124811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaIdleAnimSpritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1147
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6c2938b9fe45c44b555ad87f7a36b2
+      internalID: 97455212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaIdleAnimSpritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 1147
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fae692bd9b5c21419db37fa1097d8f1
+      internalID: 1535313055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaIdleAnimSpritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 891
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118a30b4c18951a448854d57e418ad8c
+      internalID: -2013223301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaIdleAnimSpritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 891
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c51b9e054e883f46ae6715fb391b01a
+      internalID: 551144192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaIdleAnimSpritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 891
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f176706300635174ba65769fd674baa0
+      internalID: -1947823551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaIdleAnimSpritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 891
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9980c3e49f8794a8a00afa36f54a32
+      internalID: -2002560135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaIdleAnimSpritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 891
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9d6360acabb6e40a73371f766dbe25
+      internalID: 900563597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LylaIdleAnimSpritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 891
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25f5a85f22e8504a9cd457689a8981e
+      internalID: 1620850961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LylaIdleAnimSpritesheet_0: 1531063096
+      LylaIdleAnimSpritesheet_1: 1689786731
+      LylaIdleAnimSpritesheet_10: 434976621
+      LylaIdleAnimSpritesheet_11: -1330525860
+      LylaIdleAnimSpritesheet_12: 1886117836
+      LylaIdleAnimSpritesheet_13: -1234473875
+      LylaIdleAnimSpritesheet_14: 1507290609
+      LylaIdleAnimSpritesheet_15: -392486339
+      LylaIdleAnimSpritesheet_16: -660527463
+      LylaIdleAnimSpritesheet_17: 4180650
+      LylaIdleAnimSpritesheet_18: -736876489
+      LylaIdleAnimSpritesheet_19: -2128190527
+      LylaIdleAnimSpritesheet_2: -431446471
+      LylaIdleAnimSpritesheet_20: -561459745
+      LylaIdleAnimSpritesheet_21: -1617933062
+      LylaIdleAnimSpritesheet_22: 1840318789
+      LylaIdleAnimSpritesheet_23: 1444800144
+      LylaIdleAnimSpritesheet_24: 1995981126
+      LylaIdleAnimSpritesheet_25: 631216634
+      LylaIdleAnimSpritesheet_26: 849359674
+      LylaIdleAnimSpritesheet_27: 665702969
+      LylaIdleAnimSpritesheet_28: -1713812757
+      LylaIdleAnimSpritesheet_29: 1324124811
+      LylaIdleAnimSpritesheet_3: 290989443
+      LylaIdleAnimSpritesheet_30: 97455212
+      LylaIdleAnimSpritesheet_31: 1535313055
+      LylaIdleAnimSpritesheet_32: -2013223301
+      LylaIdleAnimSpritesheet_33: 551144192
+      LylaIdleAnimSpritesheet_34: -1947823551
+      LylaIdleAnimSpritesheet_35: -2002560135
+      LylaIdleAnimSpritesheet_36: 900563597
+      LylaIdleAnimSpritesheet_37: 1620850961
+      LylaIdleAnimSpritesheet_4: 620492331
+      LylaIdleAnimSpritesheet_5: -1656784988
+      LylaIdleAnimSpritesheet_6: 581400163
+      LylaIdleAnimSpritesheet_7: -1827358829
+      LylaIdleAnimSpritesheet_8: 1265344744
+      LylaIdleAnimSpritesheet_9: 1211942175
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

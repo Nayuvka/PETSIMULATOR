@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b96c63b970a4ec8418637235ef7a7c06, type: 3}
+  m_Name: KoalaDialogue
+  m_EditorClassIdentifier: 
+  npcName: 'Kea Kea '
+  npcPortrait: {fileID: 0}
+  dialogueLines:
+  - Oh hello! I heard you are new here...
+  - 'I''m Kea Kea, I manage house upgrades etc '
+  - We have been so busy lately with renovations
+  - and your house is in need of an exterior upgrade
+  - did you know if you purchase furniture from the paws and posh shop and click
+    build in your house..
+  - 'you can place items in your home?! '
+  - 'To exit just press ''B'' again '
+  autoProgressLines: 01010101
+  autoProgressDelay: 1.5
+  typingSpeed: 0.05
+  vowelSounds: []
+  consonantSounds: []
+  silenceSound: {fileID: 0}
+  voicePitch: 1
+  voiceVolume: 1
+  customStartSound: 
+  customEndSound: 

@@ -1,0 +1,1030 @@
+fileFormatVersion: 2
+guid: aa9c26b0f81d1034aa11eefc615450d4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1918
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7abc909dbd87dc844ab670bcd7941186
+      internalID: -2035513783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1918
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df63a69ffd2666249838fd0f4a17d14e
+      internalID: -114720833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1918
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9cc30e28860d1144a7b1161cc5bd464
+      internalID: -397726513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1918
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3fa2404884b3541897a619e9b544db
+      internalID: 811080929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1918
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca31ab1f52c8c7d48b8f6caaf862d536
+      internalID: 830519510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1918
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74aeb0321dba8bb4290c938e31190293
+      internalID: -2113729661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1918
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9590a17c601a854499448f7993ae44f
+      internalID: 1009806867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1918
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e603965a33108b34db187034cb5b1d93
+      internalID: -580561904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1662
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bfe73adaaa1f40499df1420ff41714f
+      internalID: 987149823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1662
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af45334c3b985af44ae71eb546609759
+      internalID: -1905282319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1662
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa76b1fc5f9e1204a9956a7a6b9e9d8a
+      internalID: -1911558782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1662
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1518ea20f9845924ba5eb1a467fa7b34
+      internalID: 339756299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1662
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b723c71c8181334fb1930003f1a7d2b
+      internalID: -1838996759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1662
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d8f99911f98a346ae7cfbd5504c23c
+      internalID: -631115585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1662
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a3658cc5e415044a9d9f5db617cb96
+      internalID: 1444898675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1662
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13badd476f02a848bf6af9f31c5ae4a
+      internalID: -1352065854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1406
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b41f1198b4aef49a30ae6dad5c6ee4
+      internalID: -347095377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1406
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2624d5160f8e89c4e9b28900a1453bf3
+      internalID: -379336074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1406
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e906b56db590a6e41951ee502132ea64
+      internalID: -1344914790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1406
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791ac1b142dde93479f5a4d76a704b39
+      internalID: 1000673634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1406
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d47dd640f4b3b4b9386f19c551d17d
+      internalID: 2121513096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1406
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d68fc2abca1044d94f4156a0a374ba
+      internalID: 1694554502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1406
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd804092ba65a23489f4b4f7ceed236d
+      internalID: 1479979558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1406
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee5b2cc37157e14486a52047ac44a94
+      internalID: 759360410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1150
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7b3aed6c997af47bc1a56396b327b0
+      internalID: 993402201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1150
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8309c7db259134b9464a7dc2f9a822
+      internalID: -859229901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1150
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed14cd7c24e0e04a86403cfec9c0fd5
+      internalID: -2017601797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1150
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6ba9ad952f63d499f325c720201cae
+      internalID: 983150350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1150
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5088f337f29bc5478e955b4edb640e7
+      internalID: -1815817492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1150
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d161189bd4684458c02916f424cf30
+      internalID: 906855198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1150
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a6884b5ba0ed743bdb2e50be5800bb
+      internalID: 947369416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1150
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e4621f5ac8e8e4eb9b19f1c6726de8
+      internalID: 386114476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 894
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7d8c1b7aa65e84793fa5ff2fb04cb0
+      internalID: 585517445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 894
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae89ddb68c618fc4597f5f45f47e3c1d
+      internalID: 1911022212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 894
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbbd5bd353bb3ff4b9ad7f50b7da723a
+      internalID: 1647781149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 894
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d38effd776e718458b99d1610d6deee
+      internalID: -1550194962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 894
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595572a1d4930c44a86cf9738dff61fe
+      internalID: -1238201290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 894
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342ac7fca77102641afb07f9802b0410
+      internalID: -502581520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 894
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b62c2bf628df6a41a881ac3d056aa8c
+      internalID: 2041535604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxIdleAnimSpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 894
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d164570d0f3e440b64d1e399eff769
+      internalID: 1224947166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      FoxIdleAnimSpriteSheet_0: 90238192
+      FoxIdleAnimSpriteSheet_1: -1313344279
+      FoxIdleAnimSpriteSheet_10: 811080929
+      FoxIdleAnimSpriteSheet_11: 830519510
+      FoxIdleAnimSpriteSheet_12: -2113729661
+      FoxIdleAnimSpriteSheet_13: 1009806867
+      FoxIdleAnimSpriteSheet_14: -580561904
+      FoxIdleAnimSpriteSheet_15: -1546939355
+      FoxIdleAnimSpriteSheet_16: -119253905
+      FoxIdleAnimSpriteSheet_17: 1563620152
+      FoxIdleAnimSpriteSheet_18: -276339171
+      FoxIdleAnimSpriteSheet_19: 131901121
+      FoxIdleAnimSpriteSheet_2: 1043017991
+      FoxIdleAnimSpriteSheet_20: -710104520
+      FoxIdleAnimSpriteSheet_21: 477830330
+      FoxIdleAnimSpriteSheet_22: 987149823
+      FoxIdleAnimSpriteSheet_23: -1905282319
+      FoxIdleAnimSpriteSheet_24: -1911558782
+      FoxIdleAnimSpriteSheet_25: 339756299
+      FoxIdleAnimSpriteSheet_26: -1838996759
+      FoxIdleAnimSpriteSheet_27: -631115585
+      FoxIdleAnimSpriteSheet_28: 1444898675
+      FoxIdleAnimSpriteSheet_29: -1352065854
+      FoxIdleAnimSpriteSheet_3: -1641748657
+      FoxIdleAnimSpriteSheet_30: 631740029
+      FoxIdleAnimSpriteSheet_31: 249306534
+      FoxIdleAnimSpriteSheet_32: 1379414453
+      FoxIdleAnimSpriteSheet_33: 531428425
+      FoxIdleAnimSpriteSheet_34: 1767894238
+      FoxIdleAnimSpriteSheet_35: -353151668
+      FoxIdleAnimSpriteSheet_36: -2052918998
+      FoxIdleAnimSpriteSheet_37: -347095377
+      FoxIdleAnimSpriteSheet_38: -379336074
+      FoxIdleAnimSpriteSheet_39: -1344914790
+      FoxIdleAnimSpriteSheet_4: -1066372888
+      FoxIdleAnimSpriteSheet_40: 1000673634
+      FoxIdleAnimSpriteSheet_41: 2121513096
+      FoxIdleAnimSpriteSheet_42: 1694554502
+      FoxIdleAnimSpriteSheet_43: 1479979558
+      FoxIdleAnimSpriteSheet_44: 759360410
+      FoxIdleAnimSpriteSheet_45: -832896535
+      FoxIdleAnimSpriteSheet_46: -1209867081
+      FoxIdleAnimSpriteSheet_47: 1761518008
+      FoxIdleAnimSpriteSheet_48: -1662073851
+      FoxIdleAnimSpriteSheet_49: -166681847
+      FoxIdleAnimSpriteSheet_5: -1530101883
+      FoxIdleAnimSpriteSheet_50: 2114295488
+      FoxIdleAnimSpriteSheet_51: 1541677533
+      FoxIdleAnimSpriteSheet_52: 993402201
+      FoxIdleAnimSpriteSheet_53: -859229901
+      FoxIdleAnimSpriteSheet_54: -2017601797
+      FoxIdleAnimSpriteSheet_55: 983150350
+      FoxIdleAnimSpriteSheet_56: -1815817492
+      FoxIdleAnimSpriteSheet_57: 906855198
+      FoxIdleAnimSpriteSheet_58: 947369416
+      FoxIdleAnimSpriteSheet_59: 386114476
+      FoxIdleAnimSpriteSheet_6: -1457920146
+      FoxIdleAnimSpriteSheet_60: 1816785675
+      FoxIdleAnimSpriteSheet_61: 1517698949
+      FoxIdleAnimSpriteSheet_62: -1650896184
+      FoxIdleAnimSpriteSheet_63: 1644013325
+      FoxIdleAnimSpriteSheet_64: -2078821882
+      FoxIdleAnimSpriteSheet_65: 1178946573
+      FoxIdleAnimSpriteSheet_66: 581448028
+      FoxIdleAnimSpriteSheet_67: 585517445
+      FoxIdleAnimSpriteSheet_68: 1911022212
+      FoxIdleAnimSpriteSheet_69: 1647781149
+      FoxIdleAnimSpriteSheet_7: -2035513783
+      FoxIdleAnimSpriteSheet_70: -1550194962
+      FoxIdleAnimSpriteSheet_71: -1238201290
+      FoxIdleAnimSpriteSheet_72: -502581520
+      FoxIdleAnimSpriteSheet_73: 2041535604
+      FoxIdleAnimSpriteSheet_74: 1224947166
+      FoxIdleAnimSpriteSheet_75: 483632369
+      FoxIdleAnimSpriteSheet_8: -114720833
+      FoxIdleAnimSpriteSheet_9: -397726513
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

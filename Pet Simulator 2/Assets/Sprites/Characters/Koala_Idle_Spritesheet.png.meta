@@ -1,0 +1,1104 @@
+fileFormatVersion: 2
+guid: b564f3725ec8a8943adea4f49b5e518a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1918
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d3b88145defc841b4f0547ccce3b25
+      internalID: 1725057033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1918
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e979c248bc4494193dcb8ecd662fbe
+      internalID: -1211072762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1918
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51f8c8d9273d8a46a662e3374359c4e
+      internalID: -1840445630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1918
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9c81658a6524043bc8f0267530e71e
+      internalID: -1662868201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1918
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdd82ff326a7fb448a546f829ae59a4
+      internalID: 1948417419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 1918
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000cf3615f3d2c942a95948dcdba0151
+      internalID: -92142485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 1918
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169890439fbf50242882f47da5439cf6
+      internalID: 1499502100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1918
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f96edf31edc5b24dbc04ac4c85675d5
+      internalID: 975548971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1662
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036a2bf5d6c1d1a48839210e65c292a4
+      internalID: -453178773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1662
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2de4869be56fa645a60ef271435c088
+      internalID: -191866991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1662
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e57318b5ac97b347ad2b879ef2c5b60
+      internalID: -509362392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1662
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12bfadb583066d64ebe349e91f4f4881
+      internalID: 2024609810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1662
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8ebc7f69858bb4db4e6c130d661811
+      internalID: -70821512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 1662
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a1db613dce1a64999978be42e6212f
+      internalID: 944556378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 1662
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5017ffa938acf42b807929fb7b41fa
+      internalID: -442081029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1662
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a182cabd72f114647ab16472203b63d4
+      internalID: -575356452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1406
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4367a360641c86242942bcf15fd1b22c
+      internalID: 24065341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1406
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c35bc425066c37459e28c9dee5e256c
+      internalID: -1871476029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1406
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c71f8a5f28dd049816ce2ef464ad28
+      internalID: 1649941065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1406
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39df71f38c5781b49b1e80377ff98506
+      internalID: -926874251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1406
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dccb2188ac26f24ba6f65673d331881
+      internalID: 657058315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 1406
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac15f75e892a2d645b75bd273f098f17
+      internalID: 1466629896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 1406
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ebe183436833a94f8b89982fedde816
+      internalID: 657548464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1406
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ff3f539ebfcbd4bbffc6434c51790a
+      internalID: -676366718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1150
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d47f62073f5ef942bd6a79000bcd9ab
+      internalID: -926161684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1150
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6bdfa1f42be964d95cac843fecaff6
+      internalID: 289534118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1150
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0014e2cf9ab054eac50e56ddc2aa20
+      internalID: -354063407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1150
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2cfaff1a830bb4c9534cfecc4749d8
+      internalID: 1949458622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1150
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7a973457cf1c84fb49df7011edaeae
+      internalID: -768210297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 1150
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc66daf4cc7d82d45bc5cbaf9850c1f3
+      internalID: 1076928183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 1150
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab71b5dd02a98b2448f0f30bdbafd12b
+      internalID: 212172395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1150
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21fff906c9097b44c87b181c3c796013
+      internalID: 2019534857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 894
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82fb14bfa2644ec4eaa79bb60b4f99b7
+      internalID: -40954700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 894
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4401590eb4dc515429bbef4bc78f53e3
+      internalID: -1026596527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 894
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d682d8c862a9a4a9b4766c3aa48f5b
+      internalID: 412980088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 894
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ad5c574d0dfe44e95fb260316a2de0
+      internalID: 216785258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 894
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5bde29186702ff46b34d66cea1f9d4d
+      internalID: -854017894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 894
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843fe87b1114f744eb5c8b29eb8da9cb
+      internalID: 1312702881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 894
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856c651d6f2ca3948a85b3479a2efd47
+      internalID: 485486511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 894
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959c1820914db3c43b6b571ed49a9649
+      internalID: -2060895074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 638
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ad86ca0b0860248bdba2d3ffc0b424
+      internalID: -370718038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 638
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276247a55d9c3e84f84aba87d5ac6489
+      internalID: 445116081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 638
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93659c6a055d61d4d871794b626b3002
+      internalID: 1654206378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 638
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed215b7198dc7cd46b7abfa3f25bace7
+      internalID: -785749346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koala_Idle_Spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 638
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edcc69868ef86b749b1572f66f302829
+      internalID: 489907925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Koala_Idle_Spritesheet_0: 1725057033
+      Koala_Idle_Spritesheet_1: -1211072762
+      Koala_Idle_Spritesheet_10: -509362392
+      Koala_Idle_Spritesheet_11: 2024609810
+      Koala_Idle_Spritesheet_12: -70821512
+      Koala_Idle_Spritesheet_13: 944556378
+      Koala_Idle_Spritesheet_14: -442081029
+      Koala_Idle_Spritesheet_15: -575356452
+      Koala_Idle_Spritesheet_16: 24065341
+      Koala_Idle_Spritesheet_17: -1871476029
+      Koala_Idle_Spritesheet_18: 1649941065
+      Koala_Idle_Spritesheet_19: -926874251
+      Koala_Idle_Spritesheet_2: -1840445630
+      Koala_Idle_Spritesheet_20: 657058315
+      Koala_Idle_Spritesheet_21: 1466629896
+      Koala_Idle_Spritesheet_22: 657548464
+      Koala_Idle_Spritesheet_23: -676366718
+      Koala_Idle_Spritesheet_24: -926161684
+      Koala_Idle_Spritesheet_25: 289534118
+      Koala_Idle_Spritesheet_26: -354063407
+      Koala_Idle_Spritesheet_27: 1949458622
+      Koala_Idle_Spritesheet_28: -768210297
+      Koala_Idle_Spritesheet_29: 1076928183
+      Koala_Idle_Spritesheet_3: -1662868201
+      Koala_Idle_Spritesheet_30: 212172395
+      Koala_Idle_Spritesheet_31: 2019534857
+      Koala_Idle_Spritesheet_32: -40954700
+      Koala_Idle_Spritesheet_33: -1026596527
+      Koala_Idle_Spritesheet_34: 412980088
+      Koala_Idle_Spritesheet_35: 216785258
+      Koala_Idle_Spritesheet_36: -854017894
+      Koala_Idle_Spritesheet_37: 1312702881
+      Koala_Idle_Spritesheet_38: 485486511
+      Koala_Idle_Spritesheet_39: -2060895074
+      Koala_Idle_Spritesheet_4: 1948417419
+      Koala_Idle_Spritesheet_40: -370718038
+      Koala_Idle_Spritesheet_41: 445116081
+      Koala_Idle_Spritesheet_42: 1654206378
+      Koala_Idle_Spritesheet_43: -785749346
+      Koala_Idle_Spritesheet_44: 489907925
+      Koala_Idle_Spritesheet_5: -92142485
+      Koala_Idle_Spritesheet_6: 1499502100
+      Koala_Idle_Spritesheet_7: 975548971
+      Koala_Idle_Spritesheet_8: -453178773
+      Koala_Idle_Spritesheet_9: -191866991
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

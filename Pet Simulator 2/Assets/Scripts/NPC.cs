@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class NPC : MonoBehaviour, IInteractable
 {
+    [Header("Dialogue Settings")]
     public NPCDialogue dialogueData;
     private DialogueController dialogueUI;
     public GameObject dialoguePanel;
@@ -13,6 +14,21 @@ public class NPC : MonoBehaviour, IInteractable
     public Image portraitImage;
     private int dialogueIndex;
     private bool isTyping, isDialogueActive;
+    private PetSimulator2 playerInput;
+
+    [Header("Shop Settings")]
+    [SerializeField] private bool hasShop = false;
+    [SerializeField] private GameObject shopMenu; // Reference to shop UI panel
+    [SerializeField] private GameObject shopIcon; // Optional icon to show above NPC
+    [SerializeField] private string shopOpenSoundName = "shop_open";
+    [SerializeField] private string shopCloseSoundName = "shop_close";
+    private bool isShopActive = false;
+
+    [Header("Fish Selling")]
+    [SerializeField] private bool buysFish = false;
+    [SerializeField] private Item fishItem; // Reference to the Fish item ScriptableObject
+    [SerializeField] private int coinsPerFish = 25;
+    [SerializeField] private InventoryManager playerInventory;
 
     [Header("Audio Settings")]
     [SerializeField] private AudioSource audioSource;
@@ -30,6 +46,29 @@ public class NPC : MonoBehaviour, IInteractable
     private void Start()
     {
         dialogueUI = DialogueController.Instance;
+        playerInput = new PetSimulator2();
+        
+        // Set up shop icon visibility
+        if (shopIcon != null)
+        {
+            shopIcon.SetActive(hasShop);
+        }
+        
+        // Make sure shop menu is hidden at start
+        if (shopMenu != null)
+        {
+            shopMenu.SetActive(false);
+        }
+    }
+
+    private void OnEnable()
+    {
+        playerInput.Enable();
+    }
+
+    private void OnDisable()
+    {
+        playerInput.Disable();
     }
 
     private void Awake()
@@ -40,15 +79,19 @@ public class NPC : MonoBehaviour, IInteractable
 
     public bool CanInteract()
     {
-        return !isDialogueActive;
+        return !isDialogueActive && !isShopActive;
     }
 
     public void Interact()
     {
-        if (dialogueData == null || (PauseController.IsGamePaused && !isDialogueActive))
+        if (dialogueData == null || (PauseController.IsGamePaused && !isDialogueActive && !isShopActive))
             return;
 
-        if (isDialogueActive)
+        if (isShopActive)
+        {
+            CloseShop();
+        }
+        else if (isDialogueActive)
         {
             NextLine();
         }
@@ -181,11 +224,116 @@ public class NPC : MonoBehaviour, IInteractable
         isDialogueActive = false;
         dialogueUI.SetDialogueText("");
         dialogueUI.ShowDialogueUI(false);
-        PauseController.SetPause(false);
 
-        if (!string.IsNullOrEmpty(dialogueEndSoundName))
+        // Check if this NPC buys fish first
+        if (buysFish)
         {
-            SoundEffectManager.Play(dialogueEndSoundName);
+            HandleFishSelling();
         }
+        // Then check if this NPC has a shop and should open it after dialogue
+        else if (hasShop)
+        {
+            OpenShop();
+        }
+        else
+        {
+            // If no shop or fish buying, unpause the game
+            PauseController.SetPause(false);
+        }
+    }
+
+    public void OpenShop()
+    {
+        if (!hasShop || shopMenu == null) return;
+
+        isShopActive = true;
+        shopMenu.SetActive(true);
+        // Keep game paused while shop is open
+        PauseController.SetPause(true);
+    }
+
+    public void CloseShop()
+    {
+        if (shopMenu == null) return;
+
+        isShopActive = false;
+        shopMenu.SetActive(false);
+        PauseController.SetPause(false);
+    }
+
+    private void HandleFishSelling()
+    {
+        int fishQuantity = GetFishQuantity();
+        
+        if (fishQuantity > 0)
+        {
+            int totalCoins = fishQuantity * coinsPerFish;
+            
+            // Remove all fish from inventory
+            playerInventory.RemoveItem(fishItem, fishQuantity);
+            
+            // Add coins to player
+            playerInventory.coins += totalCoins;
+            playerInventory.UpdateCoinDisplay();
+            
+            // Show message through dialogue system
+            string sellMessage = $"You have {fishQuantity} Fish in your inventory. Here is {totalCoins} coins!";
+            StartCoroutine(ShowFishSellMessage(sellMessage));
+        }
+        else
+        {
+            // No fish to sell, just unpause
+            PauseController.SetPause(false);
+        }
+    }
+
+    private int GetFishQuantity()
+    {
+        Item playerFish = playerInventory.items.Find(i => i.itemName == fishItem.itemName);
+        return playerFish != null ? playerFish.itemQuantity : 0;
+    }
+
+    private IEnumerator ShowFishSellMessage(string message)
+    {
+        // Show the fish selling message
+        string currentText = "";
+        dialogueUI.SetDialogueText("");
+        dialogueUI.ShowDialogueUI(true);
+        
+        // Type out the message
+        foreach (char letter in message)
+        {
+            currentText += letter;
+            dialogueUI.SetDialogueText(currentText);
+            PlayPhoneticSound(letter);
+            yield return new WaitForSeconds(dialogueData.typingSpeed);
+        }
+        
+        // Wait for player to interact to close (using existing playerInput)
+        bool waitingForInput = true;
+        while (waitingForInput)
+        {
+            if (playerInput.Player.Interact.triggered)
+            {
+                waitingForInput = false;
+            }
+            yield return null;
+        }
+        
+        // Close dialogue and unpause
+        dialogueUI.SetDialogueText("");
+        dialogueUI.ShowDialogueUI(false);
+        PauseController.SetPause(false);
+    }
+
+    // Public methods for external scripts (like UI buttons)
+    public bool HasShop()
+    {
+        return hasShop;
+    }
+
+    public bool IsShopOpen()
+    {
+        return isShopActive;
     }
 }

@@ -22,8 +22,6 @@ public class ChangeScene : MonoBehaviour
     void Start()
     {
         startPosition = playerTransform.position;
-        StartTransform.position = playerTransform.position;
-        
         confiner.m_BoundingShape2D = regularBounds;
     }
 
@@ -32,22 +30,34 @@ public class ChangeScene : MonoBehaviour
         SceneManager.LoadScene(sceneID);
     }
 
+    // Original method for backwards compatibility
     public void MoveToDen()
     {
-        if (!inDen)
+        MoveToDen(true);
+    }
+
+    // New simplified method
+    public void MoveToDen(bool isEntering)
+    {
+        if (!inDen && isEntering)
         {
+            // Entering the den
             playerTransform.position = DenDoor.position;
             BuildButton.SetActive(true);
             confiner.m_BoundingShape2D = denBounds;
             inDen = true;
+            
+            Debug.Log("Entered den");
         }
-        else
+        else if (inDen && !isEntering)
         {
-            Vector3 returnPos = StartTransform != null ? StartTransform.position : startPosition;
-            playerTransform.position = returnPos;
+            // Exiting the den - always return to StartTransform position
+            playerTransform.position = StartTransform.position;
             BuildButton.SetActive(false);
             confiner.m_BoundingShape2D = regularBounds;
             inDen = false;
+            
+            Debug.Log($"Exited den. Returned to position: {StartTransform.position}");
         }
     }
 }

@@ -158,22 +158,31 @@ public class BuildingMechanic : MonoBehaviour
     
     void PlaceTile()
     {
-        // Check if we have a selected item and it's still in inventory
         if (selectedItem == null || !inventoryManager.HasItem(selectedItem, 1))
-        {
             return;
-        }
         
-        // Get mouse position
+        // Use the SAME calculation as your visual grid
+        Vector3 cellSize = tilemap.layoutGrid.cellSize;
+        Vector3 gridOrigin = tilemap.layoutGrid.transform.position - new Vector3(gridOffsetX * cellSize.x, gridOffsetY * cellSize.y, 0);
+        
+        // Get mouse world position
         Vector3 mousePos = Input.mousePosition;
-        mousePos.z = 10f;
+        mousePos.z = -mainCamera.transform.position.z;
         Vector3 worldPos = mainCamera.ScreenToWorldPoint(mousePos);
         
-        // Convert to grid position
-        Vector3Int gridPos = tilemap.layoutGrid.WorldToCell(worldPos);
+        // Calculate which grid cell this world position is in
+        Vector3 relativePos = worldPos - gridOrigin;
+        int gridX = Mathf.FloorToInt(relativePos.x / cellSize.x);
+        int gridY = Mathf.FloorToInt(relativePos.y / cellSize.y);
+        
+        // Convert to grid position (accounting for your offset)
+        Vector3Int gridPos = new Vector3Int(gridX - gridOffsetX, gridY - gridOffsetY, 0);
         
         // Get the current tile at this position
         TileBase currentTile = tilemap.GetTile(gridPos);
+        
+        Debug.Log($"Mouse world: {worldPos}, Grid pos: {gridPos}");
+        Debug.Log($"Current tile at position: {currentTile}");
         
         // Check if current tile is a valid floor tile
         if (IsFloorTile(currentTile))
@@ -181,26 +190,33 @@ public class BuildingMechanic : MonoBehaviour
             // Place the selected tile
             tilemap.SetTile(gridPos, selectedTile);
             
-            // Remove 1 from inventory
+            // Remove from inventory
             if (inventoryManager.RemoveItem(selectedItem, 1))
             {
-                // Refresh the building inventory UI to update quantities
                 buildingInventoryUI.RefreshInventory();
-                
-                // If item quantity is now 0, it will be automatically removed from inventory
-                // and won't show up in the next refresh
             }
         }
+        else
+        {
+            Debug.Log("Cannot place here - no valid floor tile found!");
+        }
     }
-    
+
     bool IsFloorTile(TileBase tile)
     {
-        // Check if the current tile is one of our floor tiles
-        foreach (TileBase floorTile in floorTiles)
+        Debug.Log($"Checking if tile is floor tile. Current tile: {tile}");
+        Debug.Log($"Floor tiles array length: {floorTiles.Length}");
+        
+        for (int i = 0; i < floorTiles.Length; i++)
         {
-            if (tile == floorTile)
+            Debug.Log($"Floor tile {i}: {floorTiles[i]}");
+            if (tile == floorTiles[i])
+            {
+                Debug.Log($"Match found with floor tile {i}!");
                 return true;
+            }
         }
+        Debug.Log("No match found in floor tiles array");
         return false;
     }
 }

@@ -16,7 +16,7 @@ MonoBehaviour:
   npcPortrait: {fileID: 0}
   dialogueLines:
   - Hello there! I'm Lyla! Welcome to Wilvera!
-  - You kow the folks that stay here havent left?!
+  - You know the folks that stay here havent left?!
   - Probably because the folks here are too friendly or maybe its the muffins.
   - 'Y''know... I really need someone to catch some fish for me.... '
   - but you needa get some bait so start digging holes by pressing 'Q'

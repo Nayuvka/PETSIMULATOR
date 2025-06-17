@@ -18,5 +18,5 @@ MonoBehaviour:
   ItemDescription: 
   itemQuantity: 1
   isBuildMaterial: 1
-  tileToPlace: {fileID: 11400000, guid: 93475ea7d28da66499e83d8f911b32a1, type: 2}
+  tileToPlace: {fileID: 11400000, guid: 1b0f88ec9bd33764ebd102c721ab8dfa, type: 2}
   itemPrefab: {fileID: 0}
